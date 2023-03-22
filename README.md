@@ -44,7 +44,7 @@
 
 - **HTML**
 - **CSS**
-- **A header with color**
+- **Great Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +112,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[A navbar]**
+- [ ] **[More responsiveness]**
 - [ ] **[A footer]**
 - [ ] **[JavaScript]**
 
