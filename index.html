@@ -156,9 +156,13 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
     <form action="https://formspree.io/f/xknavqkz" method="post">
-      <input class="fullWidth">
-      <input class="fullWidth">
-      <textarea class="fullWidth"></textarea>
+
+      <label for="name">Your name</label>
+      <input type="text" id="name" class="fullWidth" placeholder="Full name" required>
+      <label for="email">Your email</label>
+      <input type="text" id="email" class="fullWidth" placeholder="Email address" required>
+      <label for="textarea">Your message</label>
+      <textarea id="textarea" class="fullWidth" placeholder="Enter your message here..."></textarea>
     </form>
 
     <button class="buttonDeco">Start collaboration</button>

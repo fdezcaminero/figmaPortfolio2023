@@ -174,3 +174,19 @@
 .greenText {
   color: #92dcdc;
 }
+
+.dflexSocialMedia {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.awhite {
+  color: white;
+  margin-right: 30px;
+}
+
+.socialmediaFontsize {
+  font-size: 25px;
+}
