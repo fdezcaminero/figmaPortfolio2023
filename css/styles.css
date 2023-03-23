@@ -24,11 +24,11 @@
 }
 
 .playfairFont {
-  font-family: Playfair Display;
+  font-family: Playfair Display, sans-serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -44,13 +44,13 @@
 }
 
 .buttonDeco {
-  background-color: #1A2236;
+  background-color: #1a2236;
   color: white;
   font-family: PoppinsSemiBold, sans-serif;
   font-size: 19px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   padding: 15px 70px;
   width: 100%;
