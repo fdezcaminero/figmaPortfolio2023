@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 *,
 *::after,
 *::before {
@@ -56,6 +58,10 @@
 
 .toolbarSize {
   height: 17px;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 24px;
+  margin-right: 14px;
+}
+
+.artDeco2 {
+  padding: 10px 28px;
 }
