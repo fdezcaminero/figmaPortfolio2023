@@ -150,7 +150,7 @@
   letter-spacing: 0;
   text-align: center;
   padding: 15px 0;
-  width: 100%;
+  width: 70%;
 }
 
 .buttonDeco2:hover {
@@ -166,3 +166,6 @@
   border-color: #1a2236;
 }
 
+.dgrid {
+  display: grid;
+}
