@@ -56,6 +56,19 @@
   width: 100%;
 }
 
+.buttonDeco:hover {
+  color: #1a2236;
+  background: white;
+  border-color: #1a2236;
+}
+
+.buttonDeco:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
 .middleDeco {
   background-image: url(../resources/image_geometry_2.svg);
   background-repeat: no-repeat;
