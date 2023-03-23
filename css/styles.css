@@ -190,3 +190,18 @@
 .socialmediaFontsize {
   font-size: 25px;
 }
+
+.languagesSection {
+  background-color: #1c528a;
+  color: white;
+}
+
+.frameworksSection {
+  background-color: #e2505c;
+  color: white;
+}
+
+.skillsSection {
+  background-color: #febf52;
+  color: white;
+}
