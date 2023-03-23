@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../resources/poppins.regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../resources/poppins.light.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../resources/poppins.semibold.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -18,24 +33,27 @@
 }
 
 .paragraphStyle {
-  font-family: Poppins;
+  font-family: PoppinsRegular, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .buttonDeco {
   background-color: #1A2236;
   color: white;
-  font-family: Poppins;
-  font-size: 16px;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
   padding: 15px 70px;
+  width: 100%;
 }
 
 .middleDeco {
