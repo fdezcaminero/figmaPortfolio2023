@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../resources/poppins.regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../resources/poppins.light.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../resources/poppins.semibold.ttf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playfairFont {
+  font-family: Playfair Display, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.paragraphStyle {
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.buttonDeco {
+  background-color: #1a2236;
+  color: white;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.buttonDeco:hover {
+  color: #1a2236;
+  background: white;
+  border-color: #1a2236;
+}
+
+.buttonDeco:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
+.middleDeco {
+  background-image: url(../resources/image_geometry_2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-top: 50%;
+  margin-top: 28px;
+}
+
+.artDeco1 {
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  height: 77px;
+}
+
+.toolbarSize {
+  height: 17px;
+  margin-top: 24px;
+  margin-right: 14px;
+}
+
+.artDeco2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 28px;
+}
