@@ -98,13 +98,11 @@
   margin-right: 14px;
 }
 
-.artDeco2 {
-  display: flex;
-  flex-direction: column;
+.mainPadding {
   padding: 10px 28px;
 }
 
-.artDeco3 {
+.artDeco2 {
   display: flex;
   flex-direction: column;
   padding: 10px 28px;
