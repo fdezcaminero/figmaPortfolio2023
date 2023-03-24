@@ -129,12 +129,12 @@
 }
 
 .projectnameStyle {
-  color: #ffffff;
+  color: #fff;
   font-family: PoppinsRegular, sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-bottom: 10px;
 }
@@ -280,5 +280,5 @@
 
 .rectangleText2 {
   font-family: PoppinsSemiBold, sans-serif;
-  font-size: 18px;  
+  font-size: 18px;
 }
