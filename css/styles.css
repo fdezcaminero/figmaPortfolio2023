@@ -256,10 +256,15 @@
   color: white;
   padding-left: 25%;
   padding-top: 20%;
+  font-family: PoppinsRegular, sans-serif;
 }
 
 .projectsPadding {
   padding-left: 25px;
   padding-top: 21px;
   padding-bottom: 20px;
+}
+
+.noBullet {
+  list-style-type: none;
 }
