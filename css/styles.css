@@ -197,19 +197,39 @@
   background-color: #1c528a;
   background-image: url(../resources/pound.svg);
   background-repeat: no-repeat;
+  background-position: right bottom;
   color: white;
+  height: 289px;
 }
 
 .frameworksSection {
   background-color: #e2505c;
   background-image: url(../resources/frameworkSquare.png);
   background-repeat: no-repeat;
+  background-position: right bottom;
   color: white;
+  height: 289px;
 }
 
 .skillsSection {
   background-color: #febf52;
   background-image: url(../resources/ic_skills.svg);
   background-repeat: no-repeat;
+  background-position: right bottom;
   color: white;
+  height: 289px;
+}
+
+.aboutP {
+  font-family: PoppinsRegular, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.margBottom1 {
+  margin-bottom: 25px;
+}
+
+.margTop1 {
+  margin-top: 50px;
 }
