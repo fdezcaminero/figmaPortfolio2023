@@ -15,6 +15,11 @@
   src: url(../resources/poppins.semibold.ttf);
 }
 
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../resources/Poppins-Bold.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -255,8 +260,7 @@
 .rectangleText {
   color: white;
   padding-left: 25%;
-  padding-top: 20%;
-  font-family: PoppinsRegular, sans-serif;
+  padding-top: 15%;
 }
 
 .projectsPadding {
@@ -265,6 +269,16 @@
   padding-bottom: 20px;
 }
 
-.noBullet {
+.noBullet1 {
+  font-family: PoppinsBold, sans-serif;
+  font-size: 25px;
   list-style-type: none;
+  position: relative;
+  left: -16px;
+  margin-bottom: 15px;
+}
+
+.rectangleText2 {
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 18px;  
 }
