@@ -131,15 +131,20 @@
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .greenul {
   display: flex;
   list-style-type: none;
+  margin-bottom: 10px;
 }
 
 .greenli {
   background-color: #98dede;
+  font-size: 10.33px;
+  padding: 5px 10px;
+  margin-right: 12px;
 }
 
 .buttonDeco2 {
@@ -251,4 +256,10 @@
   color: white;
   padding-left: 25%;
   padding-top: 20%;
+}
+
+.projectsPadding {
+  padding-left: 25px;
+  padding-top: 21px;
+  padding-bottom: 20px;
 }
