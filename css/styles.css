@@ -246,3 +246,9 @@
   display: flex;
   justify-content: center;
 }
+
+.rectangleText {
+  color: white;
+  padding-left: 25%;
+  padding-top: 20%;
+}
