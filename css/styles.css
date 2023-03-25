@@ -289,3 +289,8 @@
 .noBullet2 {
   list-style-type: none;
 }
+
+.flexBlueBackground {
+  display: flex;
+  flex-direction: column;
+}
