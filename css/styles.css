@@ -280,3 +280,8 @@
   font-family: PoppinsSemiBold, sans-serif;
   font-size: 18px;
 }
+
+.flexCard {
+  display: flex;
+  flex-direction: column;
+}
