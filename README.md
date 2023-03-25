@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd desired-folder
-  git clone https://github.com/fdezcaminero/HelloWorld5.git
+  git clone https://github.com/fdezcaminero/figmaPortfolio2023.git
 ```
 
 ### Install

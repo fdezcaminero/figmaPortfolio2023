@@ -15,6 +15,11 @@
   src: url(../resources/poppins.semibold.ttf);
 }
 
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../resources/Poppins-Bold.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -93,8 +98,199 @@
   margin-right: 14px;
 }
 
+.mainPadding {
+  padding: 10px 28px;
+}
+
 .artDeco2 {
   display: flex;
   flex-direction: column;
   padding: 10px 28px;
+  background: #f9f9fa;
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  padding-top: 110px;
+}
+
+.fullWidth {
+  margin-top: -4px;
+  margin-bottom: -6px;
+  width: 100%;
+}
+
+.projectsTag {
+  padding: 45px 20px 40px;
+}
+
+.darkBlueBackground {
+  background-color: #1a2236;
+}
+
+.projectnameStyle {
+  color: #fff;
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.greenul {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.greenli {
+  background-color: #98dede;
+  font-size: 10.33px;
+  padding: 5px 10px;
+  margin-right: 12px;
+}
+
+.buttonDeco2 {
+  background-color: #1a2236;
+  border-color: white;
+  color: white;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 15px 0;
+  width: 70%;
+}
+
+.buttonDeco2:hover {
+  color: #1a2236;
+  background: white;
+  border-color: #1a2236;
+}
+
+.buttonDeco2:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
+.dgrid {
+  display: grid;
+}
+
+.greenText {
+  color: #92dcdc;
+}
+
+.dflexSocialMedia {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.awhite {
+  color: white;
+  margin-right: 30px;
+}
+
+.socialmediaFontsize {
+  font-size: 25px;
+}
+
+.languagesSection {
+  background-color: #1c528a;
+  background-image: url(../resources/pound.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: white;
+  height: 289px;
+}
+
+.frameworksSection {
+  background-color: #e2505c;
+  background-image: url(../resources/frameworkSquare.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: white;
+  height: 289px;
+}
+
+.skillsSection {
+  background-color: #febf52;
+  background-image: url(../resources/ic_skills.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: white;
+  height: 289px;
+}
+
+.aboutP {
+  font-family: PoppinsRegular, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.margBottom1 {
+  margin-bottom: 25px;
+}
+
+.margBottom2 {
+  margin-bottom: 20px;
+}
+
+.margTop1 {
+  margin-top: 50px;
+}
+
+.margRight1 {
+  margin-right: 20px;
+}
+
+.dflex1 {
+  display: flex;
+  justify-content: center;
+}
+
+.rectangleText {
+  color: white;
+  padding-left: 25%;
+  padding-top: 15%;
+}
+
+.projectsPadding {
+  padding-left: 25px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+}
+
+.noBullet1 {
+  font-family: PoppinsBold, sans-serif;
+  font-size: 25px;
+  list-style-type: none;
+  position: relative;
+  left: -16px;
+  margin-bottom: 15px;
+}
+
+.rectangleText2 {
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 18px;
+}
+
+.flexCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.noBullet2 {
+  list-style-type: none;
+}
+
+.flexBlueBackground {
+  display: flex;
+  flex-direction: column;
 }
