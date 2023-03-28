@@ -234,6 +234,11 @@
   padding-bottom: 20px;
 }
 
+.loremStyle {
+  padding: 20px 0;
+  font-family: PoppinsRegular, sans-serif;
+}
+
 .margBottom1 {
   margin-bottom: 25px;
 }
