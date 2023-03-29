@@ -346,6 +346,10 @@
   flex-direction: column;
 }
 
+.desktopHeader {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
@@ -367,6 +371,7 @@
 
   .mainPadding {
     display: flex;
+    padding: 0;
   }
 
   .flex-reverse {
@@ -404,5 +409,27 @@
 
   .dflexSocialMedia {
     margin-top: 32px;
+  }
+
+  .artDeco1 {
+    display: none;
+  }
+
+  .desktopHeader {
+    display: flex;
+    border-bottom: 1px;
+    box-shadow: 0px 0.5px 0px #dddfe6;
+    list-style-type: none;
+    justify-content: center;
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    padding: 30px 0;
+  }
+
+  .desktopHeader > li {
+    padding-right: 25px;
   }
 }
