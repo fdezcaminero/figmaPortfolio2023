@@ -364,4 +364,8 @@
   .mainPadding {
     display: flex;
   }
+
+  .flex-reverse {
+    flex-direction: row-reverse;
+  }
 }
