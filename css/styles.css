@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+
 @font-face {
   font-family: PoppinsRegular;
   src: url(../resources/poppins.regular.ttf);
@@ -18,6 +19,11 @@
 @font-face {
   font-family: PoppinsBold;
   src: url(../resources/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: PlayfairMedium;
+  src: url(../resources/PlayfairDisplay-Medium.ttf);
 }
 
 *,
@@ -343,9 +349,20 @@
     background-repeat: no-repeat;
     background-position: top right;
     height: 877px;
+    width: 100%;
   }
 
   .middleDeco {
     display: none;
+  }
+
+  .playfairFont {
+    font-size: 110px;
+    line-height: 100px;
+    font-family: PlayfairMedium, sans-serif;
+  }
+
+  .mainPadding {
+    display: flex;
   }
 }
