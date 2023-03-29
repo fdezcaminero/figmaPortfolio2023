@@ -302,11 +302,6 @@
   list-style-type: none;
 }
 
-.flexBlueBackground {
-  display: flex;
-  flex-direction: column;
-}
-
 .label1 {
   font-family: Poppins, sans-serif;
   font-size: 10px;
