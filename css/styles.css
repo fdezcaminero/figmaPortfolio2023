@@ -368,4 +368,9 @@
   .flex-reverse {
     flex-direction: row-reverse;
   }
+
+  .artDeco2 {
+    background-image: url(../resources/image-geometry_6.svg), url(../resources/image-geometry_7.svg);
+    background-position: top left, bottom right;
+  }
 }
