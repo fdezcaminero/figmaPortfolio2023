@@ -20,6 +20,11 @@
   src: url(../resources/Poppins-Bold.ttf);
 }
 
+@font-face {
+  font-family: PlayfairMedium;
+  src: url(../resources/PlayfairDisplay-Medium.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -103,8 +108,6 @@
 }
 
 .artDeco2 {
-  display: flex;
-  flex-direction: column;
   padding: 10px 28px;
   background: #f9f9fa;
   background-image: url(../resources/image_geometry_1.svg);
@@ -183,6 +186,15 @@
 
 .greenText {
   color: #92dcdc;
+  display: flex;
+  justify-content: center;
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 18px;
+  padding: 30px 0;
+}
+
+.greenText2 {
+  display: none;
 }
 
 .dflexSocialMedia {
@@ -190,6 +202,8 @@
   margin-left: 30px;
   margin-top: 15px;
   list-style-type: none;
+  justify-content: center;
+  padding-bottom: 35px;
 }
 
 .awhite {
@@ -232,6 +246,11 @@
   font-family: PoppinsRegular, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.loremStyle {
+  padding: 20px 0;
+  font-family: PoppinsRegular, sans-serif;
 }
 
 .margBottom1 {
@@ -281,16 +300,109 @@
   font-size: 18px;
 }
 
-.flexCard {
-  display: flex;
-  flex-direction: column;
-}
-
 .noBullet2 {
   list-style-type: none;
 }
 
-.flexBlueBackground {
+.label1 {
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7d7c84;
+}
+
+.fullWidth2 {
+  border: 1px solid #dfdfe0;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 52px;
+  border-radius: 4px;
+  padding-left: 18px;
+}
+
+.fullWidth3 {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #dfdfe0;
+  resize: none;
+  padding-left: 18px;
+  padding-top: 18px;
+}
+
+.greenArrow {
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bigDeco {
+    background-image: url(../resources/Thur.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 877px;
+    width: 100%;
+  }
+
+  .middleDeco {
+    display: none;
+  }
+
+  .playfairFont {
+    font-size: 110px;
+    line-height: 100px;
+    font-family: PlayfairMedium, sans-serif;
+  }
+
+  .mainPadding {
+    display: flex;
+  }
+
+  .flex-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .artDeco2 {
+    background-image: url(../resources/image-geometry_6.svg), url(../resources/image-geometry_7.svg);
+    background-position: top left, bottom right;
+    padding-left: 317px;
+    padding-right: 493px;
+  }
+
+  .deskdflex {
+    display: flex;
+  }
+
+  .greenText {
+    display: none;
+  }
+
+  .greenText2 {
+    color: #92dcdc;
+    display: flex;
+    justify-content: center;
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 18px;
+    padding: 30px 0;
+  }
+
+  .deskfooter {
+    justify-content: space-between;
+    padding: 0 135px;
+  }
+
+  .dflexSocialMedia {
+    margin-top: 32px;
+  }
 }
