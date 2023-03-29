@@ -339,3 +339,16 @@
   font-size: 24px;
   padding-left: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .bigDeco {
+    background-image: url(../resources/Thur.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 877px;
+  }
+
+  .middleDeco {
+    display: none;
+  }
+}
