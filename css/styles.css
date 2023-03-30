@@ -511,4 +511,12 @@
   .deskStuff {
     display: block;
   }
+
+  .projectsTag {
+    transform: rotate(-90deg);
+  }
+
+  .rectangleText {
+    width: 289px;
+  }
 }
