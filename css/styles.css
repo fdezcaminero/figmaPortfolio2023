@@ -432,4 +432,8 @@
   .desktopHeader > li {
     padding-right: 25px;
   }
+
+  .deskBlueSquare {
+    display: none;
+  }
 }
