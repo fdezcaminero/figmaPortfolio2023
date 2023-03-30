@@ -397,7 +397,7 @@
 
   .deskflex1 {
     display: flex;
-    gap: 10px;
+    gap: 40px;
   }
 
   .deskPosRelative {
@@ -488,5 +488,19 @@
 
   .loremStyle {
     padding: 50px 0;
+  }
+
+  .deskAbout {
+    width: 50%;
+  }
+
+  .deskTech {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .margBottom2 {
+    margin-bottom: 0;
   }
 }
