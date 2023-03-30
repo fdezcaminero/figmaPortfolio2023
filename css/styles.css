@@ -360,6 +360,10 @@
   display: none;
 }
 
+.deskStuff {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/image_dots.png), url(../resources/Thur.png);
@@ -502,5 +506,9 @@
 
   .margBottom2 {
     margin-bottom: 0;
+  }
+
+  .deskStuff {
+    display: block;
   }
 }
