@@ -107,6 +107,10 @@
   padding: 10px 28px;
 }
 
+.aboutPadding {
+  padding: 10px 28px;
+}
+
 .artDeco2 {
   padding: 10px 28px;
   background: #f9f9fa;
@@ -406,7 +410,6 @@
 
   .deskPosRelative {
     position: relative;
-    flex-grow: 1;
   }
 
   .label1 {
@@ -527,6 +530,28 @@
   }
 
   .aboutButtonDesk {
-    width: 50%;
+    width: 254px;
+  }
+
+  .aboutPadding {
+    display: flex;
+    padding: 150px 0;
+  }
+
+  .aboutDots {
+    position: absolute;
+    right: 70px;
+    top: 125px;
+  }
+
+  .aboutTealSquare {
+    position: absolute;
+    right: 8px;
+    top: 65px;
+  }
+
+  .deskPosRelative2 {
+    position: relative;
+    flex-grow: 1;
   }
 }
