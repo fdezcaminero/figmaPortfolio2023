@@ -496,6 +496,8 @@
 
   .deskAbout {
     width: 50%;
+    padding-right: 200px;
+    padding-left: 125px;
   }
 
   .deskTech {
@@ -518,5 +520,13 @@
 
   .rectangleText {
     width: 289px;
+  }
+
+  .aboutP {
+    padding: 35px 0;
+  }
+
+  .aboutButtonDesk {
+    width: 50%;
   }
 }
