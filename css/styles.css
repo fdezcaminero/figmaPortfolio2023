@@ -314,6 +314,16 @@
   color: #7d7c84;
 }
 
+.label2 {
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7d7c84;
+}
+
 .fullWidth2 {
   border: 1px solid #dfdfe0;
   margin-top: 4px;
@@ -352,9 +362,9 @@
 
 @media screen and (min-width: 768px) {
   .bigDeco {
-    background-image: url(../resources/Thur.png);
+    background-image: url(../resources/image_dots.png), url(../resources/Thur.png);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom center, top right;
     height: 877px;
     width: 100%;
   }
@@ -385,7 +395,22 @@
     padding-right: 493px;
   }
 
-  .deskdflex {
+  .deskflex1 {
+    display: flex;
+    gap: 10px;
+  }
+
+  .deskPosRelative {
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .label1 {
+    position: absolute;
+    top: -15px;
+  }
+
+  .deskflex2 {
     display: flex;
   }
 
@@ -435,5 +460,33 @@
 
   .deskBlueSquare {
     display: none;
+  }
+
+  .macBookpic {
+    width: 465px;
+  }
+
+  .ABLaptopPic {
+    width: 800px;
+  }
+
+  .yellowLaptop {
+    width: 265px;
+  }
+
+  .pinkLaptop {
+    width: 465px;
+  }
+
+  .special-column {
+    flex-direction: column-reverse;
+  }
+
+  .grayLaptop {
+    width: 465px;
+  }
+
+  .loremStyle {
+    padding: 50px 0;
   }
 }

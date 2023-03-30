@@ -62,7 +62,7 @@
         </section>
   
         <section class="flex-column">
-          <img class="fullWidth" src="resources/macbook.png" alt="A macbook">
+          <img class="fullWidth macBookpic" src="resources/macbook.png" alt="A macbook">
           <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
             <p class="projectnameStyle">Project name goes here</p>
       
@@ -80,7 +80,7 @@
         </section>
 
         <section class="flex-column">
-          <img class="fullWidth" src="resources/ABlaptop.png" alt="A laptop and a phone">
+          <img class="fullWidth ABLaptopPic" src="resources/ABlaptop.png" alt="A laptop and a phone">
           <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
             <p class="projectnameStyle">Project name goes here</p>
       
@@ -98,7 +98,7 @@
         </section>
 
         <section class="flex-column">
-          <img class="fullWidth" src="resources/yellowLaptop.png" alt="A laptop with a yellow design">
+          <img class="fullWidth yellowLaptop" src="resources/yellowLaptop.png" alt="A laptop with a yellow design">
           <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
             <p class="projectnameStyle">Project name goes here</p>
       
@@ -115,7 +115,7 @@
           </div>
         </section>
   
-        <section class="flex-column">
+        <section class="flex-column special-column grayLaptop">
           <img class="fullWidth" src="resources/grayLaptop.png" alt="A laptop with a gray background">
           <div class="darkBlueBackground projectsPadding flex-column">
             <p class="projectnameStyle">Project name goes here</p>
@@ -134,7 +134,7 @@
         </section>
   
         <section class="flex-column">
-          <img class="fullWidth" src="resources/pinkScreen.png" alt="A laptop with a pink screen">
+          <img class="fullWidth pinkLaptop" src="resources/pinkScreen.png" alt="A laptop with a pink screen">
           <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
             <p class="projectnameStyle">Project name goes here</p>
       
@@ -208,13 +208,17 @@
     <p class="loremStyle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
     <form action="https://formspree.io/f/xknavqkz" method="POST">
-      <div class="deskdflex">
-        <label for="name" class="label1">Your name</label>
-        <input type="text" id="name" name="user_name" class="fullWidth2" maxlength="30" placeholder="Full name" required>
-        <label for="email" class="label1">Your email</label>
-        <input type="email" id="email" name="user_email" class="fullWidth2" placeholder="Email address" required>
+      <div class="deskflex1">
+        <div class="deskPosRelative">
+          <label for="name" class="label1">Your name</label>
+          <input type="text" id="name" name="user_name" class="fullWidth2" maxlength="30" placeholder="Full name" required>
+        </div>
+        <div class="deskPosRelative">
+          <label for="email" class="label1">Your email</label>
+          <input type="email" id="email" name="user_email" class="fullWidth2" placeholder="Email address" required>
+        </div>
       </div>
-      <label for="textarea" class="label1">Your message</label>
+      <label for="textarea" class="label2">Your message</label>
       <textarea id="textarea" name="user_message" class="fullWidth3" maxlength="500" placeholder="Enter your message here..." required></textarea>
       <button class="buttonDeco">Start collaboration</button>
     </form>
@@ -225,7 +229,7 @@
       <i class="fa-solid fa-arrow-up-right-from-square greenArrow"></i>
     </p>
 
-    <div class="deskdflex deskfooter">
+    <div class="deskflex2 deskfooter">
       <p class="greenText2">Get my CV
         <i class="fa-solid fa-arrow-up-right-from-square greenArrow"></i>
       </p>
