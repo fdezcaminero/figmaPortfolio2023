@@ -389,6 +389,8 @@
     margin-top: 702px;
     height: 175px;
     width: 175px;
+    position: absolute;
+    right: 703px;
   }
 
   .middleDeco {
@@ -710,7 +712,7 @@
 
   .projectsTag {
     transform: rotate(-90deg);
-    left: -145px;
+    left: -140px;
   }
 
   .bigImage {
