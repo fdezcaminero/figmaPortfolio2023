@@ -379,7 +379,8 @@
     background-repeat: no-repeat;
     background-position: top right;
     height: 877px;
-    width: 702px;
+    width: 65%;
+    background-size: contain;
   }
 
   .dottedImage {
@@ -395,9 +396,9 @@
   }
 
   .playfairFont {
-    font-size: 110px;
     line-height: 100px;
     font-family: PlayfairMedium, sans-serif;
+    font-size: 85px;
   }
 
   .mainPadding {
@@ -622,7 +623,7 @@
   }
 
   .positionDeco3 {
-    top: 1297px;
+    top: 1207px;
   }
 
   .positionDeco4 {
@@ -636,18 +637,19 @@
   }
 
   .positionDeco6 {
-    left: 15%;
+    left: 147px;
   }
 
   .firstCardBlueBackground {
     position: absolute;
     background-color: rgba(26, 34, 54, 0.95);
-    width: 960px;
     top: 204px;
     height: 353px;
     padding-left: 100px;
     padding-top: 50px;
     gap: 30px;
+    width: 621px;
+    right: 0;
   }
 
   .formButtonDesk {
@@ -679,7 +681,7 @@
   }
 
   .deskFont1 {
-    font-size: 60px;
+    font-size: 43px;
   }
 
   .deskFont2 {
@@ -708,6 +710,12 @@
 
   .projectsTag {
     transform: rotate(-90deg);
-    left: -6%;
+    left: -145px;
+  }
+
+  .bigImage {
+    width: 622px;
+    position: absolute;
+    right: 0;
   }
 }
