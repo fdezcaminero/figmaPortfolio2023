@@ -127,6 +127,7 @@
 
 .projectsTag {
   padding: 45px 20px 40px;
+  top: 95px;
 }
 
 .darkBlueBackground {
@@ -398,6 +399,7 @@
   .mainPadding {
     display: flex;
     padding: 0;
+    padding-bottom: 200px;
   }
 
   .flex-reverse {
@@ -479,14 +481,21 @@
 
   .macBookpic {
     width: 465px;
+    position: absolute;
+    top: 797px;
   }
 
   .ABLaptopPic {
     width: 800px;
+    position: absolute;
+    top: 1066px;
   }
 
   .yellowLaptop {
     width: 265px;
+    position: absolute;
+    top: 1532px;
+    right: 385px;
   }
 
   .pinkLaptop {
@@ -550,7 +559,8 @@
 
   .aboutPadding {
     display: flex;
-    padding: 150px 0;
+    padding-top: 1900px;
+    padding-bottom: 150px;
   }
 
   .aboutDots {
@@ -585,7 +595,7 @@
   .deskPresentation {
     position: absolute;
     width: 50%;
-    top: 100px;
+    top: 204px;
     left: 50px;
   }
 
@@ -602,7 +612,48 @@
   }
 
   .positionDeco1 {
-    top: 899px;
+    top: 714px;
     right: 467px;
+  }
+
+  .positionDeco2 {
+    top: 1204px;
+    right: 0;
+  }
+
+  .positionDeco3 {
+    top: 1530px;
+  }
+
+  .positionDeco4 {
+    top: 1354px;
+    right: 475px;
+  }
+
+  .positionDeco5 {
+    top: 1528px;
+    right: 649px;
+  }
+
+  .positionDeco6 {
+    left: 712px;
+  }
+
+  .firstCardBlueBackground {
+    position: absolute;
+    background-color: rgba(26, 34, 54, 0.95);
+    width: 960px;
+    top: 204px;
+    height: 353px;
+  }
+
+  .formButtonDesk {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .deskButtonWidth {
+    width: 50%;
   }
 }
