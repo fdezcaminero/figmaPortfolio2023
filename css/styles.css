@@ -227,6 +227,7 @@
   background-position: right bottom;
   color: white;
   height: 289px;
+  position: relative;
 }
 
 .frameworksSection {
@@ -236,6 +237,7 @@
   background-position: right bottom;
   color: white;
   height: 289px;
+  position: relative;
 }
 
 .skillsSection {
@@ -245,6 +247,7 @@
   background-position: right bottom;
   color: white;
   height: 289px;
+  position: relative;
 }
 
 .aboutP {
@@ -281,8 +284,9 @@
 
 .rectangleText {
   color: white;
-  padding-left: 25%;
-  padding-top: 15%;
+  position: absolute;
+  left: 70px;
+  top: 45px;
 }
 
 .projectsPadding {
@@ -369,7 +373,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
     background-repeat: no-repeat;
@@ -409,7 +413,7 @@
   .artDeco2 {
     background-image: url(../resources/image-geometry_6.svg), url(../resources/image-geometry_7.svg);
     background-position: top left, bottom right;
-    padding-left: 317px;
+    padding-left: 465px;
     padding-right: 493px;
   }
 
@@ -482,19 +486,19 @@
   .macBookpic {
     width: 465px;
     position: absolute;
-    top: 797px;
+    top: 565px;
   }
 
   .ABLaptopPic {
     width: 800px;
     position: absolute;
-    top: 1066px;
+    top: 834px;
   }
 
   .yellowLaptop {
     width: 265px;
     position: absolute;
-    top: 1532px;
+    top: 1298px;
     right: 385px;
   }
 
@@ -502,7 +506,7 @@
     width: 465px;
     position: absolute;
     right: 0;
-    top: 717px;
+    top: 560px;
   }
 
   .special-column {
@@ -513,8 +517,8 @@
     width: 465px;
     position: absolute;
     right: 0;
-    top: 778px;
     z-index: 10;
+    top: 610px;
   }
 
   .loremStyle {
@@ -541,10 +545,6 @@
     display: block;
   }
 
-  .projectsTag {
-    transform: rotate(-90deg);
-  }
-
   .rectangleText {
     width: 289px;
   }
@@ -559,7 +559,7 @@
 
   .aboutPadding {
     display: flex;
-    padding-top: 1900px;
+    padding-top: 1700px;
     padding-bottom: 150px;
   }
 
@@ -612,26 +612,26 @@
   }
 
   .positionDeco1 {
-    top: 714px;
+    top: 557px;
     right: 467px;
   }
 
   .positionDeco2 {
-    top: 1204px;
+    top: 1042px;
     right: 0;
   }
 
   .positionDeco3 {
-    top: 1530px;
+    top: 1297px;
   }
 
   .positionDeco4 {
-    top: 1354px;
+    top: 1120px;
     right: 475px;
   }
 
   .positionDeco5 {
-    top: 1528px;
+    top: 1294px;
     right: 649px;
   }
 
@@ -645,6 +645,9 @@
     width: 960px;
     top: 204px;
     height: 353px;
+    padding-left: 100px;
+    padding-top: 50px;
+    gap: 30px;
   }
 
   .formButtonDesk {
@@ -654,6 +657,40 @@
   }
 
   .deskButtonWidth {
-    width: 50%;
+    width: 45%;
+  }
+
+  .buttonDecoDesk {
+    background-color: white;
+    color: #1a2236;
+  }
+
+  .buttonDecoDesk:hover {
+    background-color: #1a2236;
+    color: white;
+    border-color: white;
+  }
+  
+  .buttonDecoDesk:active {
+    color: white;
+    background-color: #1a2236;
+    border-width: 3px 3px 3px 3px;
+    border-color: white;
+  }
+
+  .deskFont1 {
+    font-size: 60px;
+  }
+
+  .deskFont2 {
+    font-size: 23px;
+  }
+
+  .projectnameStyle {
+    font-family: PoppinsSemiBold, sans-serif;
+  }
+
+  .greenli {
+    font-size: 15px;
   }
 }
