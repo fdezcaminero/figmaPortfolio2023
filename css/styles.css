@@ -705,4 +705,8 @@
   .skillsSection {
     width: 300px;
   }
+  
+  .projectsTag {
+    transform: rotate(-90deg);
+  }
 }
