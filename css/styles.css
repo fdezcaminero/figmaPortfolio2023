@@ -413,8 +413,8 @@
   .artDeco2 {
     background-image: url(../resources/image-geometry_6.svg), url(../resources/image-geometry_7.svg);
     background-position: top left, bottom right;
-    padding-left: 465px;
-    padding-right: 493px;
+    padding-left: 265px;
+    padding-right: 393px;
   }
 
   .deskflex1 {
@@ -484,13 +484,13 @@
   }
 
   .macBookpic {
-    width: 465px;
+    width: 26%;
     position: absolute;
     top: 565px;
   }
 
   .ABLaptopPic {
-    width: 800px;
+    width: 35%;
     position: absolute;
     top: 834px;
   }
@@ -527,8 +527,7 @@
 
   .deskAbout {
     width: 50%;
-    padding-right: 200px;
-    padding-left: 125px;
+    padding-left: 5%;
   }
 
   .deskTech {
@@ -614,6 +613,7 @@
   .positionDeco1 {
     top: 557px;
     right: 467px;
+    width: 30%;
   }
 
   .positionDeco2 {
@@ -636,7 +636,7 @@
   }
 
   .positionDeco6 {
-    left: 712px;
+    left: 15%;
   }
 
   .firstCardBlueBackground {
@@ -705,8 +705,9 @@
   .skillsSection {
     width: 300px;
   }
-  
+
   .projectsTag {
     transform: rotate(-90deg);
+    left: -6%;
   }
 }
