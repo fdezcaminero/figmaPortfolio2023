@@ -491,6 +491,9 @@
 
   .pinkLaptop {
     width: 465px;
+    position: absolute;
+    right: 0;
+    top: 717px;
   }
 
   .special-column {
@@ -499,6 +502,10 @@
 
   .grayLaptop {
     width: 465px;
+    position: absolute;
+    right: 0;
+    top: 778px;
+    z-index: 10;
   }
 
   .loremStyle {
@@ -586,5 +593,16 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
+  }
+
+  .firstCardDesk {
+    width: 960px;
+    position: absolute;
+    right: 0;
+  }
+
+  .positionDeco1 {
+    top: 899px;
+    right: 467px;
   }
 }
