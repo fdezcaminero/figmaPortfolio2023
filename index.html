@@ -16,29 +16,34 @@
   </header>
 
   <ul class="desktopHeader">
-    <li>Hello</li>
-    <img src="resources/underlinestick.svg" alt="Deco underlining stick">
+    <div class="deskPosRelative">
+      <li class="liPaddingRight">Hello</li>
+      <img class="deskPosAbsolute" src="resources/underlinestick.svg" alt="Deco underlining stick">
+    </div>
     <li>Portfolio</li>
     <li>About</li>
     <li>Contact</li>
   </ul>
 
   <main>
-    <section class="mainPadding">
-      <div>
+    <section class="mainPadding deskPosRelative">
+      <div class="deskPresentation">
         <h1 class="playfairFont">José Fernández-Caminero</h1>
     
         <p class="paragraphStyle">I'm a Full-Stack engineer. I love coding beautiful, effecient, complex, difficult websites.</p>
         
-        <button class="buttonDeco">Start collaboration</button>
+        <button class="buttonDeco mainButtonWidthDesk">Start collaboration</button>
       </div>
 
-      <div class="bigDeco"></div>
+      <div class="deskPresentationDeco">
+        <div class="dottedImage"></div>
+        <div class="bigDeco"></div>
+      </div>
     </section>
     
     <section class="middleDeco"></section>
 
-    <section>
+    <section class="deskPosRelative">
       <h2 class="playfairFont projectsTag">Projects</h2>
 
       <img class="deskStuff" src="resources/image-geometry_2.svg" alt="Geometrical decoration">

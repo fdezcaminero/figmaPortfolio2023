@@ -370,11 +370,19 @@
 
 @media screen and (min-width: 768px) {
   .bigDeco {
-    background-image: url(../resources/image_dots.png), url(../resources/Thur.png);
+    background-image: url(../resources/Thur.png);
     background-repeat: no-repeat;
-    background-position: bottom center, top right;
+    background-position: top right;
     height: 877px;
-    width: 100%;
+    width: 702px;
+  }
+
+  .dottedImage {
+    background-image: url(../resources/image_dots.png);
+    background-repeat: no-repeat;
+    margin-top: 702px;
+    height: 175px;
+    width: 175px;
   }
 
   .middleDeco {
@@ -553,5 +561,30 @@
   .deskPosRelative2 {
     position: relative;
     flex-grow: 1;
+  }
+
+  .mainButtonWidthDesk {
+    width: 35%;
+  }
+
+  .deskPosAbsolute {
+    position: absolute;
+  }
+
+  .liPaddingRight {
+    padding-right: 25px;
+  }
+
+  .deskPresentation {
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    left: 50px;
+  }
+
+  .deskPresentationDeco {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
   }
 }
