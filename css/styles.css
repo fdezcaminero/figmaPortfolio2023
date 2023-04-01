@@ -713,9 +713,9 @@
   }
 
   .buttonTransition:hover {
-    width: 25%;
+    width: 50%;
   }
-  
+
   .buttonTransition2 {
     transition: font-family 3s, font-size 3s;
   }
@@ -726,8 +726,8 @@
   }
 
   @keyframes logo {
-    from {color: black}
-    to {color: green}
+    from { color: black };
+    to { color: green };
   }
 
   .playfairFont {
@@ -739,4 +739,3 @@
     animation-iteration-count: infinite;
   }
 }
-
