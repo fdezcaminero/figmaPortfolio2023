@@ -626,7 +626,7 @@
   }
 
   .positionDeco6 {
-    left: 147px;
+    left: 306px;
   }
 
   .firstCardBlueBackground {
@@ -637,7 +637,7 @@
     padding-left: 100px;
     padding-top: 50px;
     gap: 30px;
-    width: 621px;
+    width: 100%;
     right: 0;
   }
 
@@ -699,11 +699,11 @@
 
   .projectsTag {
     transform: rotate(-90deg);
-    left: -140px;
+    left: -65px;
   }
 
   .bigImage {
-    width: 622px;
+    width: 100%;
     position: absolute;
     right: 0;
   }
