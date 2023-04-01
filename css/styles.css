@@ -726,8 +726,8 @@
   }
 
   @keyframes logo {
-    from { color: black };
-    to { color: green };
+    from { color: black; }
+    to { color: green; }
   }
 
   .playfairFont {
