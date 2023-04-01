@@ -391,12 +391,6 @@
     display: none;
   }
 
-  .playfairFont {
-    line-height: 100px;
-    font-family: PlayfairMedium, sans-serif;
-    font-size: 85px;
-  }
-
   .mainPadding {
     display: flex;
     padding: 0;
@@ -712,5 +706,36 @@
     width: 622px;
     position: absolute;
     right: 0;
+  }
+
+  .buttonTransition {
+    transition: width 2s;
+  }
+
+  .buttonTransition:hover {
+    width: 50%;
+  }
+
+  .buttonTransition2 {
+    transition: font-family 3s, font-size 3s;
+  }
+
+  .buttonTransition2:hover {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 25px;
+  }
+
+  @keyframes logo {
+    from { color: black; }
+    to { color: green; }
+  }
+
+  .playfairFont {
+    line-height: 100px;
+    font-family: PlayfairMedium, sans-serif;
+    font-size: 85px;
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
   }
 }
