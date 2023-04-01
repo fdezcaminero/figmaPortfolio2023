@@ -713,4 +713,13 @@
     position: absolute;
     right: 0;
   }
+
+  .buttonTransition {
+    transition: width 2s;
+  }
+
+  .buttonTransition:hover {
+    width: 25%;
+  }
+  
 }
