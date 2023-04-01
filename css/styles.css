@@ -391,12 +391,6 @@
     display: none;
   }
 
-  .playfairFont {
-    line-height: 100px;
-    font-family: PlayfairMedium, sans-serif;
-    font-size: 85px;
-  }
-
   .mainPadding {
     display: flex;
     padding: 0;
@@ -730,4 +724,19 @@
     font-family: PoppinsBold, sans-serif;
     font-size: 25px;
   }
+
+  @keyframes logo {
+    from {color: black}
+    to {color: green}
+  }
+
+  .playfairFont {
+    line-height: 100px;
+    font-family: PlayfairMedium, sans-serif;
+    font-size: 85px;
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
 }
+
