@@ -722,4 +722,12 @@
     width: 25%;
   }
   
+  .buttonTransition2 {
+    transition: font-family 3s, font-size 3s;
+  }
+
+  .buttonTransition2:hover {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 25px;
+  }
 }
