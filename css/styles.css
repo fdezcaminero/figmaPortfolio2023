@@ -369,6 +369,26 @@
   display: none;
 }
 
+.dispNone {
+  display: none;
+}
+
+.mobileMenu {
+  background-image: url(../resources/Group98.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.mMenuBottom {
+  background-image: url(../resources/MaskGroup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  margin-top: 28px;
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
