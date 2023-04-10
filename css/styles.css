@@ -378,13 +378,12 @@
   background-repeat: no-repeat;
   background-position: left top;
   font-family: PoppinsLight, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 70px;
   letter-spacing: 0em;
   text-align: center;
-  padding-top: 75px;
-  position: relative;
+  padding-top: 135px;
 }
 
 .mMenuBottom {
@@ -395,6 +394,8 @@
   height: 0;
   padding-top: 25%;
   margin-top: 28px;
+  position: absolute;
+  bottom: 0;
 }
 
 .mobileMenuDots1 {
@@ -413,17 +414,13 @@
   width: 40px;
   position: absolute;
   left: 55px;
-  top: 280px;
+  top: 455px;
 }
 
 .positionX {
   position: absolute;
   top: 20px;
   right: 25px;
-}
-
-.margTop2 {
-  margin-top: 24px;
 }
 
 .margBottom3 {
