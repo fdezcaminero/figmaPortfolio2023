@@ -369,9 +369,9 @@
   display: none;
 }
 
-/* .dispNone {
+.dispNone {
   display: none;
-} */
+}
 
 .mobileMenu {
   background-image: url(../resources/Group98.svg);
@@ -413,12 +413,21 @@
   width: 40px;
   position: absolute;
   left: 55px;
+  top: 280px;
 }
 
 .positionX {
   position: absolute;
   top: 20px;
   right: 25px;
+}
+
+.margTop2 {
+  margin-top: 24px;
+}
+
+.margBottom3 {
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 768px) {
