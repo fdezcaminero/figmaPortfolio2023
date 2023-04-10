@@ -369,14 +369,22 @@
   display: none;
 }
 
-.dispNone {
+/* .dispNone {
   display: none;
-}
+} */
 
 .mobileMenu {
   background-image: url(../resources/Group98.svg);
   background-repeat: no-repeat;
   background-position: left top;
+  font-family: PoppinsLight, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 75px;
+  position: relative;
 }
 
 .mMenuBottom {
@@ -387,6 +395,24 @@
   height: 0;
   padding-top: 25%;
   margin-top: 28px;
+}
+
+.mobileMenuDots1 {
+  background-image: url(../resources/littleDots.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 55px;
+}
+
+.mobileMenuDots2 {
+  background-image: url(../resources/littleDots.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 55px;
 }
 
 @media screen and (min-width: 768px) {
