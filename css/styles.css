@@ -430,6 +430,11 @@
   margin-bottom: 100px;
 }
 
+.plainAnchor {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);

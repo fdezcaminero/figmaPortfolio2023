@@ -11,6 +11,7 @@
 </head>
 <body>
   <div id="mobile1">
+    <a id="Hello"></a>
     <header class="artDeco1">
       <nav>
         <img onclick="coolMenu()" class="toolbarSize" src="resources/ic_menu.svg" alt="Toolbar Menu">
@@ -44,6 +45,8 @@
       </section>
       
       <section class="middleDeco"></section>
+
+      <a id="Portfolio"></a>
   
       <section class="deskPosRelative">
         <h2 class="playfairFont projectsTag deskPosAbsolute">Projects</h2>
@@ -167,6 +170,7 @@
       </section> 
   
       <section class="aboutPadding flex-reverse">
+        <a id="About"></a>
         <div class="deskAbout">
           <h2 class="playfairFont margTop1">About</h2>
           <p class="aboutP">I can help you build one of those big, complex websites. 
@@ -221,6 +225,7 @@
     </main>
   
     <section class="artDeco2 flex-column">
+      <a id="Contact"></a>
       <h2 class="playfairFont">Get Started</h2>
   
       <p class="loremStyle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
@@ -270,10 +275,18 @@
     <img onclick="coolMenu()" class="positionX" src="resources/Union(1).svg" alt="X Button">
     <div class="mobileMenuDots1"></div>
 
-    <h2 class="margTop2">Hello</h2>
-    <h2>Portfolio</h2>
-    <h2>About</h2>
-    <h2 class="margBottom3">Contact</h2>
+    <a class="plainAnchor marginTop2" onclick="coolMenu()" href="#Hello">
+      <h2>Hello</h2>
+    </a>
+    <a class="plainAnchor" onclick="coolMenu()" href="#Portfolio">
+      <h2>Portfolio</h2>
+    </a>
+    <a class="plainAnchor" onclick="coolMenu()" href="#About">
+      <h2>About</h2>
+    </a>
+    <a class="plainAnchor" onclick="coolMenu()" class="margBottom3" href="#Contact">
+      <h2>Contact</h2>
+    </a>
 
     <div class="mobileMenuDots2"></div>
 
