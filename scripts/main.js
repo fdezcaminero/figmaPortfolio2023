@@ -1,4 +1,4 @@
-function openMenu() {
+function coolMenu() {
   const mobileDisplay = document.getElementById("mobile1");
   const mobileMenu = document.getElementById("mobile2");
 
@@ -6,9 +6,4 @@ function openMenu() {
   mobileMenu.classList.toggle("dispNone");
 }
 
-function closeMenu() {
-
-}
-
-openMenu();
-closeMenu();
+coolMenu();
