@@ -8,26 +8,32 @@ function coolMenu() {
 
 coolMenu();
 
-let projects = {
-  name: "Project name goes here",
-  description: "Project description",
-  featuredImage: "Project image",
-  technologies: {
-    tech1: "First tech",
-    tech2: "Second tech",
-    tech3: "Third tech"
-  },
-  liveVersion: "Link to live version",
-  linkToSource: "Link to source"
+function loadProjects() {
+  const projects = {
+    name: 'Project name goes here',
+    description: "Project description",
+    featuredImage: "Project image",
+    technologies: {
+      tech1: "First tech",
+      tech2: "Second tech",
+      tech3: "Third tech"
+    },
+    liveVersion: "Link to live version",
+    linkToSource: "Link to source"
+  };
+  
+  const Wikipedia = Object.create(projects);
+  
+  Wikipedia.name = 'Wikipedia';
+  Wikipedia.description = "The Free Encyclopedia";
+  Wikipedia.featuredImage = "resources/Wikipedia.png";
+  Wikipedia.technologies.tech1 = "HTML/CSS";
+  Wikipedia.technologies.tech2 = "Python";
+  Wikipedia.technologies.tech3 = "JavaScript";
+  Wikipedia.liveVersion = "";
+  Wikipedia.linkToSource = "";
+
+  document.getElementById("Project1").innerHTML = Wikipedia.name;
 };
 
-const Wikipedia = Object.create(projects);
-
-Wikipedia.name = "Wikipedia";
-Wikipedia.description = "The Free Encyclopedia";
-Wikipedia.featuredImage = "resources/Wikipedia.png";
-Wikipedia.technologies.tech1 = "HTML/CSS";
-Wikipedia.technologies.tech2 = "Python";
-Wikipedia.technologies.tech3 = "JavaScript";
-Wikipedia.liveVersion = "";
-Wikipedia.linkToSource = "";
+loadProjects();
