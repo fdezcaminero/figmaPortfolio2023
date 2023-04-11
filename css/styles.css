@@ -11,6 +11,11 @@
 }
 
 @font-face {
+  font-family: PoppinsExtraLight;
+  src: url(../resources/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
   font-family: PoppinsSemiBold;
   src: url(../resources/poppins.semibold.ttf);
 }
@@ -377,7 +382,7 @@
   background-image: url(../resources/Group98.svg);
   background-repeat: no-repeat;
   background-position: left top;
-  font-family: PoppinsLight, sans-serif;
+  font-family: PoppinsExtraLight, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 70px;
