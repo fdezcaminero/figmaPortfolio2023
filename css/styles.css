@@ -398,40 +398,6 @@
   bottom: 0;
 }
 
-.mobileMenuDots1 {
-  background-image: url(../resources/littleDots.svg);
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  right: 55px;
-}
-
-.mobileMenuDots2 {
-  background-image: url(../resources/littleDots.svg);
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  left: 55px;
-  top: 455px;
-}
-
-.positionX {
-  position: absolute;
-  top: 20px;
-  right: 25px;
-}
-
-.margBottom3 {
-  margin-bottom: 100px;
-}
-
-.plainAnchor {
-  text-decoration: none;
-  color: black;
-}
-
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
