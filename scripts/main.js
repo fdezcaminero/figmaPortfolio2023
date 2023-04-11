@@ -7,3 +7,10 @@ function coolMenu() {
 }
 
 coolMenu();
+
+let projects = {
+
+};
+
+
+// name, description, featured image, technologies, link to live version, link to source.
