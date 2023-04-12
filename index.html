@@ -11,6 +11,8 @@
 </head>
 <body onload="loadProjects()">
   <div class="modalMobile">
+    <h4>Project name goes here</h4>
+    
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus totam, animi veniam qui vitae ut unde quo in nesciunt nulla quos inventore pariatur deserunt quis laboriosam laudantium nobis possimus deleniti.</p>
 
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque aspernatur corporis est pariatur sint ratione dolorum inventore eligendi odit, quibusdam quas maiores nobis quia! Hic repudiandae molestiae unde iusto soluta aut nobis sed dolor iure quibusdam.</p>
@@ -20,12 +22,12 @@
   </div>
 
   <div class="modalDesktop">
-    <h2>Project name goes here</h2>
+    <h2 id="ProjectName1">Project name goes here</h2>
 
     <ul>
-      <li>HTML/CSS</li>
-      <li>Ruby on Rails</li>
-      <li>JavaScript</li>
+      <li id="1tech1">HTML/CSS</li>
+      <li id="1tech2">Ruby on Rails</li>
+      <li id="1tech3">JavaScript</li>
     </ul>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus totam, animi veniam qui vitae ut unde quo in nesciunt nulla quos inventore pariatur deserunt quis laboriosam laudantium nobis possimus deleniti.</p>
@@ -36,7 +38,7 @@
     <button>See source</button>
 
     <p>Previous project</p>
-    <p>Next project</p>
+    <p onclick="changeId()">Next project</p>
   </div>
 
   <div id="mobile1">
