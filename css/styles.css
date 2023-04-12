@@ -443,6 +443,40 @@
   list-style-type: none;
 }
 
+.modalTextMobile {
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.whiteButton {
+  background-color: white;
+  color: #1a2236;
+  border-color: #1a2236;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.whiteButton:hover {
+  color: white;
+  background: #1a2236;
+}
+
+.whiteButton:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
 .smallImg {
   width: 20px;
 }
