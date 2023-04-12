@@ -489,13 +489,18 @@
   border-style: solid;
 }
 
+.smallImages {
+  display: flex;
+  margin-top: -10px;
+}
+
 .smallImages > img {
-  width: 100px;
+  width: 25%;
 }
 
 .firstSmallImg {
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
 }
 
 .modalDesktop {
@@ -503,7 +508,7 @@
   padding-top: 1px;
   padding-bottom: 3px;
   /* position: fixed; */
-  transform: scale(1);
+  transform: scale(0.8);
 }
 
 .modalMobile {
@@ -520,6 +525,7 @@
 
 .flexParagraph {
   display: flex;
+  justify-content: space-between;
 }
 
 .xButton1 {
@@ -544,6 +550,16 @@
 .dispFlex1 {
   display: flex;
   justify-content: space-between;
+}
+
+.fullWidth4 {
+  width: 100%;
+}
+
+.modalDeskBottom {
+  padding: 0 20%;
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
