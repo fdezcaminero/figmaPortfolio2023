@@ -438,6 +438,15 @@
   color: black;
 }
 
+.mobileModalTech {
+  display: flex;
+  list-style-type: none;
+}
+
+.smallImg {
+  width: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
