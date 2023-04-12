@@ -502,6 +502,14 @@
   background: #1a2236f2;
   padding-top: 1px;
   padding-bottom: 3px;
+  /* position: fixed; */
+  transform: scale(1);
+}
+
+.modalMobile {
+  /* position: fixed; */
+  transform: scale(1);
+  
 }
 
 .innerModalDesktop {
@@ -511,6 +519,11 @@
 
 .flexParagraph {
   display: flex;
+}
+
+.xButton {
+  border: none;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {

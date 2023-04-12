@@ -142,8 +142,9 @@ function loadProjects() {
 
 loadProjects();
 
-
 function changeId() {
   document.getElementById('ProjectName1').setAttribute("id", "ProjectName2");
   loadProjects();
 }
+
+// use id's and prev's and next's
