@@ -515,15 +515,35 @@
 .innerModalDesktop {
   background: white;
   margin: 20px;
+  padding: 45px;
 }
 
 .flexParagraph {
   display: flex;
 }
 
-.xButton {
+.xButton1 {
   border: none;
   background-color: transparent;
+  color: #1a2236f2;
+}
+
+/* 
+.modalProjectNameMobile {
+ 
+} */
+
+.modalProjectNameDesktop {
+  font-family: PoppinsBold, sans-serif;
+  font-size: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1a2236f2;
+}
+
+.dispFlex1 {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {

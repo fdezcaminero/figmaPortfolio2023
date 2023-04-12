@@ -13,10 +13,10 @@
 
 <body onload="loadProjects()">
   <div class="modalMobile">
-    <h4>Project name goes here</h4>
-
-    <button class="xButton">&times;</button>
-
+    <div class="dispFlex">
+      <h4 class="modalProjectNameMobile">Project name goes here</h4>
+      <button class="xButton1">&times;</button>
+    </div>
     <ul class="whiteul">
       <li class="whiteli">HTML/CSS</li>
       <li class="whiteli">Ruby on Rails</li>
@@ -51,9 +51,10 @@
 
   <div class="modalDesktop">
     <section class="innerModalDesktop">
-      <h2 id="ProjectName1">Project name goes here</h2>
-
-      <button class="xButton">&times;</button>
+      <div class="dispFlex1">
+        <h2 id="ProjectName1" class="modalProjectNameDesktop">Project name goes here</h2>
+        <img src="resources/ic_cross.svg" alt="Cross shape">
+      </div>
 
       <ul class="whiteul">
         <li class="whiteli" id="1tech1">HTML/CSS</li>
