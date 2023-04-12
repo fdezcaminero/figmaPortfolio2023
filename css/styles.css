@@ -447,6 +447,10 @@
   text-align: left;
 }
 
+.modalTextMobile > p {
+  padding: 15px 0;
+}
+
 .whiteButton {
   background-color: white;
   color: #1a2236;
@@ -457,7 +461,13 @@
   line-height: 24px;
   text-align: center;
   padding: 15px 0;
-  width: 100%;
+  width: 75%;
+  display: block;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .whiteButton:hover {
@@ -466,6 +476,31 @@
 }
 
 .whiteButton:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
+.whiteButton2 {
+  background-color: white;
+  color: #1a2236;
+  border-color: #1a2236;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+  width: 30%;
+}
+
+.whiteButton2:hover {
+  color: white;
+  background: #1a2236;
+}
+
+.whiteButton2:active {
   color: #1a2236;
   background: white;
   border-width: 3px 3px 3px 3px;
@@ -507,19 +542,20 @@
   background: #1a2236f2;
   padding-top: 1px;
   padding-bottom: 3px;
-  /* position: fixed; */
-  transform: scale(0.8);
+  position: fixed;
+  transform: scale(0);
 }
 
 .modalMobile {
   /* position: fixed; */
   transform: scale(1);
-  
+  position: relative;
+  padding: 0 20px;
 }
 
 .innerModalDesktop {
   background: white;
-  margin: 20px;
+  margin: 50px;
   padding: 45px;
 }
 
@@ -534,10 +570,12 @@
   color: #1a2236f2;
 }
 
-/* 
 .modalProjectNameMobile {
- 
-} */
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 20px;
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
 
 .modalProjectNameDesktop {
   font-family: PoppinsBold, sans-serif;
@@ -560,6 +598,32 @@
   padding: 0 20%;
   font-family: PoppinsRegular, sans-serif;
   font-size: 18px;
+}
+
+.modalPadding1 {
+  padding: 35px 0;
+}
+
+.modalPadding2 {
+  padding-bottom: 20px;
+}
+
+.crossPosition {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  height: 20px;
+}
+
+.arrowLeft {
+  position: absolute;
+  top: 255px;
+}
+
+.arrowRight {
+  position: absolute;
+  top: 255px;
+  right: 24px;
 }
 
 @media screen and (min-width: 768px) {
