@@ -438,11 +438,6 @@
   color: black;
 }
 
-.mobileModalTech {
-  display: flex;
-  list-style-type: none;
-}
-
 .modalTextMobile {
   font-family: PoppinsRegular, sans-serif;
   font-size: 18px;
@@ -477,8 +472,21 @@
   border-color: #1a2236;
 }
 
-.smallImg {
-  width: 20px;
+.whiteul {
+  display: flex;
+  list-style-type: none;
+}
+
+.whiteli {
+  background-color: white;
+  font-size: 10.33px;
+  padding: 5px 10px;
+  margin-right: 12px;
+  font-family: PoppinsRegular, sans-serif;
+  color: #1a2236;
+  border-color: #1a2236;
+  border-width: 1px;
+  border-style: solid;
 }
 
 @media screen and (min-width: 768px) {
