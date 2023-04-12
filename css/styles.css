@@ -492,7 +492,9 @@
   line-height: 24px;
   text-align: center;
   padding: 15px 0;
-  width: 30%;
+  width: 35%;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .whiteButton2:hover {
@@ -505,6 +507,11 @@
   background: white;
   border-width: 3px 3px 3px 3px;
   border-color: #1a2236;
+}
+
+.styleButton {
+  display: flex;
+  justify-content: space-around;
 }
 
 .whiteul {
@@ -522,6 +529,10 @@
   border-color: #1a2236;
   border-width: 1px;
   border-style: solid;
+}
+
+.whiteulpadding {
+  padding-bottom: 10px;
 }
 
 .smallImages {
@@ -542,8 +553,8 @@
   background: #1a2236f2;
   padding-top: 1px;
   padding-bottom: 3px;
-  position: fixed;
-  transform: scale(0);
+  /* position: fixed; */
+  transform: scale(1);
 }
 
 .modalMobile {
