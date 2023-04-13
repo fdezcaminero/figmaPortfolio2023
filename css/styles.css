@@ -553,15 +553,20 @@
   background: #1a2236f2;
   padding-top: 1px;
   padding-bottom: 3px;
-  /* position: fixed; */
-  transform: scale(1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.65);
+  /* display: none; */
+  z-index: 1000;
 }
 
 .modalMobile {
-  /* position: fixed; */
-  transform: scale(1);
+  position: fixed;
+  transform: scale(0);
   position: relative;
   padding: 0 20px;
+  display: none;
 }
 
 .innerModalDesktop {
@@ -635,6 +640,14 @@
   position: absolute;
   top: 255px;
   right: 24px;
+}
+
+.arrow1padding {
+  padding-right: 15px;
+}
+
+.arrow2padding {
+  padding-left: 15px;
 }
 
 @media screen and (min-width: 768px) {

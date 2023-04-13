@@ -56,16 +56,16 @@
     </button>
   </div>
 
-  <div class="modalDesktop">
+  <div class="modalDesktop" id="modalDesktopID">
     <section class="innerModalDesktop">
       <div class="dispFlex1">
-        <h2 id="ProjectName1" class="modalProjectNameDesktop">Project name goes here</h2>
-        <img src="resources/ic_cross.svg" alt="Cross shape">
+        <h2 class="modalProjectNameDesktop">Wikipedia</h2>
+        <img onclick="closeDesktopModal()" src="resources/ic_cross.svg" alt="Cross shape">
       </div>
 
       <ul class="whiteul">
         <li class="whiteli" id="1tech1">HTML/CSS</li>
-        <li class="whiteli" id="1tech2">Ruby on Rails</li>
+        <li class="whiteli" id="1tech2">Puthon</li>
         <li class="whiteli" id="1tech3">JavaScript</li>
       </ul>
 
@@ -105,10 +105,10 @@
 
         <div class="flexParagraph">
           <p>
-            <img src="resources/leftArrow.svg" alt="Arrow pointing left">Previous project
+            <img class="arrow1padding" src="resources/leftArrow.svg" alt="Arrow pointing left">Previous project
           </p>
-          <p onclick="changeId()">Next project
-            <img src="resources/Union2.svg" alt="Arrow pointing right">
+          <p>Next project
+            <img onclick="nextButton()" class="arrow2padding" src="resources/Union2.svg" alt="Arrow pointing right">
           </p>
       </section>
     </section>
