@@ -15,7 +15,7 @@
   <div class="modalMobile dispNone" id="modalMobileID">
     <div>
       <img onclick="closeMobileModal()" class="crossPosition" src="resources/ic_cross.svg" alt="A cross">
-      <h4 class="modalProjectNameMobile">Project name goes here</h4>
+      <h4 class="modalProjectNameMobile" id="mobileProject">Project name goes here</h4>
     </div>
     <ul class="whiteul whiteulpadding">
       <li class="whiteli">HTML/CSS</li>
@@ -26,13 +26,13 @@
     <img class="arrowLeft" src="resources/Vector 4.svg" alt="Arrow left">
     <img class="arrowRight" src="resources/Vector 5.svg" alt="Arrow right">
 
-    <img class="fullWidth4" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+    <img class="fullWidth4" id="bigPicMobile" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
 
     <div class="smallImages">
-      <img class="firstSmallImg" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
-      <img src="resources/Rectangle 21.png" alt="Laptop and tangerine">
-      <img src="resources/Rectangle 21.png" alt="Laptop and tangerine">
-      <img src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+      <img id="smallPicMobile1" class="firstSmallImg" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+      <img id="smallPicMobile2" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+      <img id="smallPicMobile3" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+      <img id="smallPicMobile4" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
     </div>
 
     <div class="modalTextMobile">
@@ -44,22 +44,22 @@
         aut nobis sed dolor iure quibusdam.</p>
     </div>
 
-    <button class="whiteButton">
+    <button onclick="seeLive()" class="whiteButton">
       <div></div>
       <p>See live</p>
       <img src="resources/ic_link.svg" alt="Arrow pointing up and to the right">
     </button>
-    <button class="whiteButton">
+    <button onclick="seeSource()" class="whiteButton">
       <div></div>
       <p>See source</p>
       <img src="resources/Vector.svg" alt="GitHub logo">
     </button>
   </div>
 
-  <div class="modalDesktop " id="modalDesktopID">
+  <div class="modalDesktop dispNone" id="modalDesktopID">
     <section class="innerModalDesktop">
       <div class="dispFlex1">
-        <h2 class="modalProjectNameDesktop">Wikipedia</h2>
+        <h2 class="modalProjectNameDesktop" id="desktopProject">Wikipedia</h2>
         <img onclick="closeDesktopModal()" src="resources/ic_cross.svg" alt="Cross shape">
       </div>
 
@@ -73,13 +73,13 @@
       <img class="arrowRight2" src="resources/Vector 5.svg" alt="Big arrow right">
 
       <div>
-        <img class="fullWidth4" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+        <img id="bigPicDesktop" class="fullWidth4" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
 
         <div class="smallImages">
-          <img class="firstSmallImg" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
-          <img src="resources/Rectangle 21.png" alt="Laptop and tangerine">
-          <img src="resources/Rectangle 21.png" alt="Laptop and tangerine">
-          <img src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+          <img id="smallPicDesktop1" class="firstSmallImg" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+          <img id="smallPicDesktop2" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+          <img id="smallPicDesktop3" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
+          <img id="smallPicDesktop4" src="resources/Rectangle 21.png" alt="Laptop and tangerine">
         </div>
       </div>
 
@@ -93,13 +93,13 @@
           soluta
           aut nobis sed dolor iure quibusdam.</p>
 
-        <button class="whiteButton2">
+        <button onclick="seeLive()" class="whiteButton2">
           <div class="styleButton">
             <p>See live</p>
             <img src="resources/ic_link.svg" alt="Arrow pointing up and to the right">
           </div>
         </button>
-        <button class="whiteButton2">
+        <button onclick="seeSource()" class="whiteButton2">
           <div class="styleButton">
             <p>See source</p>
             <img src="resources/Vector.svg" alt="GitHub logo">
@@ -202,7 +202,7 @@
                 <li class="greenli" id="2tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal()" class="buttonDeco2">See this project
+              <button onclick="openModal2()" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Cooler (Blue) Arrow Pointing Right">
               </button>
@@ -220,7 +220,7 @@
                 <li class="greenli" id="3tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal()" class="buttonDeco2">See this project
+              <button onclick="openModal3()" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Even cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Even cooler (Blue) Arrow Pointing Right">
               </button>
@@ -238,7 +238,7 @@
                 <li class="greenli" id="4tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal()" class="buttonDeco2">See this project
+              <button onclick="openModal4()" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Yet even cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Yet even cool (Blue) Arrow Pointing Right">
               </button>
@@ -256,7 +256,7 @@
                 <li class="greenli" id="5tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal()" class="buttonDeco2 buttonDecoDesk">See this project
+              <button onclick="openModal5()" class="buttonDeco2 buttonDecoDesk">See this project
                 <img src="resources/Union.png" alt="Another cool (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Another cool (Blue) Arrow Pointing Right">
               </button>
@@ -274,7 +274,7 @@
                 <li class="greenli" id="6tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal()" class="buttonDeco2">See this project
+              <button onclick="openModal6()" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Another cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Another cooler (Blue) Arrow Pointing Right">
               </button>

@@ -143,6 +143,12 @@ function openModal() {
   document.getElementById('smallPicMobile3').src = 'resources/Rectangle 21.png';
   document.getElementById('smallPicMobile4').src = 'resources/Rectangle 21.png';
 
+  document.getElementById('bigPicDesktop').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicDesktop1').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicDesktop2').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicDesktop3').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicDesktop4').src = 'resources/Rectangle 21.png';
+
   if (screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
@@ -223,6 +229,12 @@ function openModal5() {
   document.getElementById('smallPicMobile3').src = 'resources/grayLaptop.png';
   document.getElementById('smallPicMobile4').src = 'resources/grayLaptop.png';
 
+  document.getElementById('bigPicDesktop').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicDesktop1').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicDesktop2').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicDesktop3').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicDesktop4').src = 'resources/grayLaptop.png';
+
   if (screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
@@ -260,4 +272,12 @@ function closeMobileModal() {
   const mobileModal = document.getElementById('modalMobileID');
 
   mobileModal.classList.toggle('dispNone');
+}
+
+function seeLive() {
+  window.open("https://fdezcaminero.github.io/figmaPortfolio2023/");
+}
+
+function seeSource() {
+  window.open("https://github.com/fdezcaminero/figmaPortfolio2023");
 }
