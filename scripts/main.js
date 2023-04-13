@@ -103,12 +103,43 @@ function loadProjects() {
   document.getElementById('1tech1').innerHTML = projects[0].technologies.tech1;
   document.getElementById('1tech2').innerHTML = projects[0].technologies.tech2;
   document.getElementById('1tech3').innerHTML = projects[0].technologies.tech3;
-  
+  document.getElementById('ProjectImage1').src = projects[0].featuredImage.imgSrc;
+  document.getElementById('ProjectImage1').alt = projects[0].featuredImage.imgAlt;
 
   document.getElementById('ProjectName2').innerHTML = projects[1].name;
   document.getElementById('2tech1').innerHTML = projects[1].technologies.tech1;
   document.getElementById('2tech2').innerHTML = projects[1].technologies.tech2;
   document.getElementById('2tech3').innerHTML = projects[1].technologies.tech3;
+  document.getElementById('ProjectImage2').src = projects[1].featuredImage.imgSrc;
+  document.getElementById('ProjectImage2').alt = projects[1].featuredImage.imgAlt;
+
+  document.getElementById('ProjectName3').innerHTML = projects[2].name;
+  document.getElementById('3tech1').innerHTML = projects[2].technologies.tech1;
+  document.getElementById('3tech2').innerHTML = projects[2].technologies.tech2;
+  document.getElementById('3tech3').innerHTML = projects[2].technologies.tech3;
+  document.getElementById('ProjectImage3').src = projects[2].featuredImage.imgSrc;
+  document.getElementById('ProjectImage3').alt = projects[2].featuredImage.imgAlt;
+
+  document.getElementById('ProjectName4').innerHTML = projects[3].name;
+  document.getElementById('4tech1').innerHTML = projects[3].technologies.tech1;
+  document.getElementById('4tech2').innerHTML = projects[3].technologies.tech2;
+  document.getElementById('4tech3').innerHTML = projects[3].technologies.tech3;
+  document.getElementById('ProjectImage4').src = projects[3].featuredImage.imgSrc;
+  document.getElementById('ProjectImage4').alt = projects[3].featuredImage.imgAlt;
+
+  document.getElementById('ProjectName5').innerHTML = projects[4].name;
+  document.getElementById('5tech1').innerHTML = projects[4].technologies.tech1;
+  document.getElementById('5tech2').innerHTML = projects[4].technologies.tech2;
+  document.getElementById('5tech3').innerHTML = projects[4].technologies.tech3;
+  document.getElementById('ProjectImage5').src = projects[4].featuredImage.imgSrc;
+  document.getElementById('ProjectImage5').alt = projects[4].featuredImage.imgAlt;
+
+  document.getElementById('ProjectName6').innerHTML = projects[5].name;
+  document.getElementById('6tech1').innerHTML = projects[5].technologies.tech1;
+  document.getElementById('6tech2').innerHTML = projects[5].technologies.tech2;
+  document.getElementById('6tech3').innerHTML = projects[5].technologies.tech3;
+  document.getElementById('ProjectImage6').src = projects[5].featuredImage.imgSrc;
+  document.getElementById('ProjectImage6').alt = projects[5].featuredImage.imgAlt;
 }
 
 function openModal() {
