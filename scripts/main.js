@@ -134,6 +134,115 @@ function openModal() {
   const deskModal = document.getElementById('modalDesktopID');
   const mobileModal = document.getElementById('modalMobileID');
 
+  document.getElementById('mobileProject').innerHTML = 'Wikipedia';
+  document.getElementById('desktopProject').innerHTML = 'Wikipedia';
+
+  document.getElementById('bigPicMobile').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicMobile1').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicMobile2').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicMobile3').src = 'resources/Rectangle 21.png';
+  document.getElementById('smallPicMobile4').src = 'resources/Rectangle 21.png';
+
+  if (screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+
+function openModal2() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+
+  document.getElementById('mobileProject').innerHTML = 'Twitter';
+  document.getElementById('desktopProject').innerHTML = 'Twitter';
+
+  document.getElementById('bigPicMobile').src = 'resources/macbook.png';
+  document.getElementById('smallPicMobile1').src = 'resources/macbook.png';
+  document.getElementById('smallPicMobile2').src = 'resources/macbook.png';
+  document.getElementById('smallPicMobile3').src = 'resources/macbook.png';
+  document.getElementById('smallPicMobile4').src = 'resources/macbook.png';
+
+  if (screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+
+function openModal3() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+
+  document.getElementById('mobileProject').innerHTML = 'Instagram';
+  document.getElementById('desktopProject').innerHTML = 'Instagram';
+
+  document.getElementById('bigPicMobile').src = 'resources/ABlaptop.png';
+  document.getElementById('smallPicMobile1').src = 'resources/ABlaptop.png';
+  document.getElementById('smallPicMobile2').src = 'resources/ABlaptop.png';
+  document.getElementById('smallPicMobile3').src = 'resources/ABlaptop.png';
+  document.getElementById('smallPicMobile4').src = 'resources/ABlaptop.png';
+
+  if (screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+
+function openModal4() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+
+  document.getElementById('mobileProject').innerHTML = 'Uber';
+  document.getElementById('desktopProject').innerHTML = 'Uber';
+
+  document.getElementById('bigPicMobile').src = 'resources/yellowLaptop.png';
+  document.getElementById('smallPicMobile1').src = 'resources/yellowLaptop.png';
+  document.getElementById('smallPicMobile2').src = 'resources/yellowLaptop.png';
+  document.getElementById('smallPicMobile3').src = 'resources/yellowLaptop.png';
+  document.getElementById('smallPicMobile4').src = 'resources/yellowLaptop.png';
+
+  if (screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+
+function openModal5() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+
+  document.getElementById('mobileProject').innerHTML = 'Microverse';
+  document.getElementById('desktopProject').innerHTML = 'Microverse';
+
+  document.getElementById('bigPicMobile').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicMobile1').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicMobile2').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicMobile3').src = 'resources/grayLaptop.png';
+  document.getElementById('smallPicMobile4').src = 'resources/grayLaptop.png';
+
+  if (screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+
+function openModal6() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+
+  document.getElementById('mobileProject').innerHTML = 'YouTube';
+  document.getElementById('desktopProject').innerHTML = 'YouTube';
+
+  document.getElementById('bigPicMobile').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile1').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile2').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile3').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile4').src = 'resources/pinkScreen.png';
+
   if (screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
