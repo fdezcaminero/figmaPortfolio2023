@@ -6,8 +6,6 @@ function coolMenu() {
   mobileMenu.classList.toggle('dispNone');
 }
 
-coolMenu();
-
 function loadProjects() {
   const projects = {
     name: 'Project name goes here',
@@ -127,8 +125,6 @@ function loadProjects() {
   document.getElementById('6tech2').innerHTML = YouTube.technologies.tech2;
   document.getElementById('6tech3').innerHTML = YouTube.technologies.tech3;
 };
-
-loadProjects();
 
 function openModal() {
   const deskModal = document.getElementById('modalDesktopID');
@@ -275,9 +271,23 @@ function closeMobileModal() {
 }
 
 function seeLive() {
-  window.open("https://fdezcaminero.github.io/figmaPortfolio2023/");
+  window.open('https://fdezcaminero.github.io/figmaPortfolio2023/');
 }
 
 function seeSource() {
-  window.open("https://github.com/fdezcaminero/figmaPortfolio2023");
+  window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
 }
+
+
+coolMenu();
+loadProjects();
+openModal();
+openModal2();
+openModal3();
+openModal4();
+openModal5();
+openModal6();
+closeDesktopModal();
+closeMobileModal();
+seeLive();
+seeSource();
