@@ -557,16 +557,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.65);
-  /* display: none; */
   z-index: 1000;
 }
 
 .modalMobile {
   position: fixed;
-  transform: scale(0);
-  position: relative;
+  transform: scale(0.8);
   padding: 0 20px;
-  display: none;
+  background-color: white;
 }
 
 .innerModalDesktop {

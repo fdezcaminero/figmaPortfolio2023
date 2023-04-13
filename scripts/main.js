@@ -130,8 +130,25 @@ function loadProjects() {
 
 loadProjects();
 
+function openModal() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+
+  if (screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+
 function closeDesktopModal() {
   const deskModal = document.getElementById('modalDesktopID');
 
   deskModal.classList.toggle('dispNone');
+}
+
+function closeMobileModal() {
+  const mobileModal = document.getElementById('modalMobileID');
+
+  mobileModal.classList.toggle('dispNone');
 }
