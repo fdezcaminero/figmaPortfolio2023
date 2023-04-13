@@ -238,6 +238,37 @@ function openModal5() {
   }
 }
 
+function openModal6() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+  document.getElementById('mobileProject').innerHTML = 'YouTube';
+  document.getElementById('desktopProject').innerHTML = 'YouTube';
+  document.getElementById('bigPicMobile').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile1').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile2').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile3').src = 'resources/pinkScreen.png';
+  document.getElementById('smallPicMobile4').src = 'resources/pinkScreen.png';
+  if (window.screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+  } else {
+    deskModal.classList.toggle('dispNone');
+  }
+}
+function closeDesktopModal() {
+  const deskModal = document.getElementById('modalDesktopID');
+  deskModal.classList.toggle('dispNone');
+}
+function closeMobileModal() {
+  const mobileModal = document.getElementById('modalMobileID');
+  mobileModal.classList.toggle('dispNone');
+}
+function seeLive() {
+  window.open('https://fdezcaminero.github.io/figmaPortfolio2023/');
+}
+function seeSource() {
+  window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
+}
+
 coolMenu();
 loadProjects();
 openModal();
