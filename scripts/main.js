@@ -6,124 +6,109 @@ function coolMenu() {
   mobileMenu.classList.toggle('dispNone');
 }
 
+const projects = [{
+  name: 'Wikipedia',
+  description: 'The Free Encyclopedia',
+  featuredImage: {
+    imgSrc: 'resources/Rectangle 21.png',
+    imgAlt: 'Wikipedia Logo',
+  },
+  technologies: {
+    tech1: 'HTML/CSS',
+    tech2: 'Python',
+    tech3: 'JavaScript',
+  },
+  liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
+  linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
+},
+{
+  name: 'Twitter',
+  description: 'Life in 140 characters',
+  featuredImage: {
+    imgSrc: 'resources/macbook.png',
+    imgAlt: 'Twitter Logo',
+  },
+  technologies: {
+    tech1: 'HTML/CSS',
+    tech2: 'Python',
+    tech3: 'BootStrap',
+  },
+  liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
+  linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
+},
+{
+  name: 'Instagram',
+  description: 'Light, more light',
+  featuredImage: {
+    imgSrc: 'resources/ABlaptop.png',
+    imgAlt: 'Instagram Logo',
+  },
+  technologies: {
+    tech1: 'HTML/CSS',
+    tech2: 'JavaScript',
+    tech3: 'BootStrap',
+  },
+  liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
+  linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
+},
+{
+  name: 'Uber',
+  description: 'Well upon our way',
+  featuredImage: {
+    imgSrc: 'resources/yellowLaptop.png',
+    imgAlt: 'Uber Logo',
+  },
+  technologies: {
+    tech1: 'HTML/CSS',
+    tech2: 'JavaScript',
+    tech3: 'Perl',
+  },
+  liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
+  linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
+},
+{
+  name: 'Microverse',
+  description: 'Learn to code',
+  featuredImage: {
+    imgSrc: 'resources/grayLaptop.png',
+    imgAlt: 'Microverse Logo',
+  },
+  technologies: {
+    tech1: 'HTML/CSS',
+    tech2: 'JavaScript',
+    tech3: 'C/C++',
+  },
+  liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
+  linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
+},
+{
+  name: 'YouTube',
+  description: 'You Tube',
+  featuredImage: {
+    imgSrc: 'resources/pinkScreen.png',
+    imgAlt: 'YouTube Logo',
+  },
+  technologies: {
+    tech1: 'HTML/CSS',
+    tech2: 'Go',
+    tech3: 'C/C++',
+  },
+  liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
+  linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
+}
+];
+
 function loadProjects() {
-  const projects = {
-    name: 'Project name goes here',
-    description: 'Project description',
-    featuredImage: {
-      imgSrc: 'Project image',
-      imgAlt: 'Project image',
-    },
-    technologies: {
-      tech1: 'First tech',
-      tech2: 'Second tech',
-      tech3: 'Third tech',
-    },
-    liveVersion: 'Link to live version',
-    linkToSource: 'Link to source',
-  };
+  document.getElementById('ProjectName1').innerHTML = projects[0].name;
+  document.getElementById('1tech1').innerHTML = projects[0].technologies.tech1;
+  document.getElementById('1tech2').innerHTML = projects[0].technologies.tech2;
+  document.getElementById('1tech3').innerHTML = projects[0].technologies.tech3;
+  
 
-  const Wikipedia = Object.create(projects);
-
-  Wikipedia.name = 'Wikipedia';
-  Wikipedia.description = 'The Free Encyclopedia';
-  Wikipedia.featuredImage.imgSrc = 'resources/Wikipedia.png';
-  Wikipedia.featuredImage.imgAlt = 'Wikipedia Logo';
-  Wikipedia.technologies.tech1 = 'HTML/CSS';
-  Wikipedia.technologies.tech2 = 'Python';
-  Wikipedia.technologies.tech3 = 'JavaScript';
-  Wikipedia.liveVersion = 'https://fdezcaminero.github.io/figmaPortfolio2023/';
-  Wikipedia.linkToSource = 'https://github.com/fdezcaminero/figmaPortfolio2023';
-
-  document.getElementById('ProjectName1').innerHTML = Wikipedia.name;
-  document.getElementById('1tech1').innerHTML = Wikipedia.technologies.tech1;
-  document.getElementById('1tech2').innerHTML = Wikipedia.technologies.tech2;
-  document.getElementById('1tech3').innerHTML = Wikipedia.technologies.tech3;
-
-  const Twitter = Object.create(projects);
-
-  Twitter.name = 'Twitter';
-  Twitter.description = 'Life in 140 characters';
-  Twitter.featuredImage.imgSrc = 'resources/Twitter.png';
-  Twitter.featuredImage.imgAlt = 'Twitter Logo';
-  Twitter.technologies.tech1 = 'HTML/CSS';
-  Twitter.technologies.tech2 = 'Python';
-  Twitter.technologies.tech3 = 'BootStrap';
-  Twitter.liveVersion = 'https://fdezcaminero.github.io/figmaPortfolio2023/';
-  Twitter.linkToSource = 'https://github.com/fdezcaminero/figmaPortfolio2023';
-
-  document.getElementById('ProjectName2').innerHTML = Twitter.name;
-  document.getElementById('2tech1').innerHTML = Twitter.technologies.tech1;
-  document.getElementById('2tech2').innerHTML = Twitter.technologies.tech2;
-  document.getElementById('2tech3').innerHTML = Twitter.technologies.tech3;
-
-  const Instagram = Object.create(projects);
-
-  Instagram.name = 'Instagram';
-  Instagram.description = 'Light, more light';
-  Instagram.featuredImage.imgSrc = 'resources/Instagram.png';
-  Instagram.featuredImage.imgAlt = 'Instagram Logo';
-  Instagram.technologies.tech1 = 'HTML/CSS';
-  Instagram.technologies.tech2 = 'JavaScript';
-  Instagram.technologies.tech3 = 'BootStrap';
-  Instagram.liveVersion = 'https://fdezcaminero.github.io/figmaPortfolio2023/';
-  Instagram.linkToSource = 'https://github.com/fdezcaminero/figmaPortfolio2023';
-
-  document.getElementById('ProjectName3').innerHTML = Instagram.name;
-  document.getElementById('3tech1').innerHTML = Instagram.technologies.tech1;
-  document.getElementById('3tech2').innerHTML = Instagram.technologies.tech2;
-  document.getElementById('3tech3').innerHTML = Instagram.technologies.tech3;
-
-  const Uber = Object.create(projects);
-
-  Uber.name = 'Uber';
-  Uber.description = 'Well upon our way';
-  Uber.featuredImage.imgSrc = 'resources/Uber.png';
-  Uber.featuredImage.imgAlt = 'Uber Logo';
-  Uber.technologies.tech1 = 'HTML/CSS';
-  Uber.technologies.tech2 = 'JavaScript';
-  Uber.technologies.tech3 = 'Perl';
-  Uber.liveVersion = 'https://fdezcaminero.github.io/figmaPortfolio2023/';
-  Uber.linkToSource = 'https://github.com/fdezcaminero/figmaPortfolio2023';
-
-  document.getElementById('ProjectName4').innerHTML = Uber.name;
-  document.getElementById('4tech1').innerHTML = Uber.technologies.tech1;
-  document.getElementById('4tech2').innerHTML = Uber.technologies.tech2;
-  document.getElementById('4tech3').innerHTML = Uber.technologies.tech3;
-
-  const Microverse = Object.create(projects);
-
-  Microverse.name = 'Microverse';
-  Microverse.description = 'Learn to code';
-  Microverse.featuredImage.imgSrc = 'resources/Microverse.png';
-  Microverse.featuredImage.imgAlt = 'Microverse Logo';
-  Microverse.technologies.tech1 = 'HTML/CSS';
-  Microverse.technologies.tech2 = 'JavaScript';
-  Microverse.technologies.tech3 = 'C/C++';
-  Microverse.liveVersion = 'https://fdezcaminero.github.io/figmaPortfolio2023/';
-  Microverse.linkToSource = 'https://github.com/fdezcaminero/figmaPortfolio2023';
-
-  document.getElementById('ProjectName5').innerHTML = Microverse.name;
-  document.getElementById('5tech1').innerHTML = Microverse.technologies.tech1;
-  document.getElementById('5tech2').innerHTML = Microverse.technologies.tech2;
-  document.getElementById('5tech3').innerHTML = Microverse.technologies.tech3;
-
-  const YouTube = Object.create(projects);
-
-  YouTube.name = 'YouTube';
-  YouTube.description = 'You Tube';
-  YouTube.featuredImage.imgSrc = 'resources/Youtube.png';
-  YouTube.featuredImage.imgAlt = 'YouTube Logo';
-  YouTube.technologies.tech1 = 'HTML/CSS';
-  YouTube.technologies.tech2 = 'Go';
-  YouTube.technologies.tech3 = 'C/C++';
-  YouTube.liveVersion = 'https://fdezcaminero.github.io/figmaPortfolio2023/';
-  YouTube.linkToSource = 'https://github.com/fdezcaminero/figmaPortfolio2023';
-
-  document.getElementById('ProjectName6').innerHTML = YouTube.name;
-  document.getElementById('6tech1').innerHTML = YouTube.technologies.tech1;
-  document.getElementById('6tech2').innerHTML = YouTube.technologies.tech2;
-  document.getElementById('6tech3').innerHTML = YouTube.technologies.tech3;
+  document.getElementById('ProjectName2').innerHTML = projects[1].name;
+  document.getElementById('2tech1').innerHTML = projects[1].technologies.tech1;
+  document.getElementById('2tech2').innerHTML = projects[1].technologies.tech2;
+  document.getElementById('2tech3').innerHTML = projects[1].technologies.tech3;
 }
 
 function openModal() {
