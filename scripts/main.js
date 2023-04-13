@@ -145,7 +145,7 @@ function openModal() {
   document.getElementById('smallPicDesktop3').src = 'resources/Rectangle 21.png';
   document.getElementById('smallPicDesktop4').src = 'resources/Rectangle 21.png';
 
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
     deskModal.classList.toggle('dispNone');
@@ -165,7 +165,7 @@ function openModal2() {
   document.getElementById('smallPicMobile3').src = 'resources/macbook.png';
   document.getElementById('smallPicMobile4').src = 'resources/macbook.png';
 
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
     deskModal.classList.toggle('dispNone');
@@ -185,7 +185,7 @@ function openModal3() {
   document.getElementById('smallPicMobile3').src = 'resources/ABlaptop.png';
   document.getElementById('smallPicMobile4').src = 'resources/ABlaptop.png';
 
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
     deskModal.classList.toggle('dispNone');
@@ -205,7 +205,7 @@ function openModal4() {
   document.getElementById('smallPicMobile3').src = 'resources/yellowLaptop.png';
   document.getElementById('smallPicMobile4').src = 'resources/yellowLaptop.png';
 
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
     deskModal.classList.toggle('dispNone');
@@ -231,7 +231,7 @@ function openModal5() {
   document.getElementById('smallPicDesktop3').src = 'resources/grayLaptop.png';
   document.getElementById('smallPicDesktop4').src = 'resources/grayLaptop.png';
 
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
     deskModal.classList.toggle('dispNone');
@@ -251,7 +251,7 @@ function openModal6() {
   document.getElementById('smallPicMobile3').src = 'resources/pinkScreen.png';
   document.getElementById('smallPicMobile4').src = 'resources/pinkScreen.png';
 
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
   } else {
     deskModal.classList.toggle('dispNone');
