@@ -22,9 +22,9 @@ function loadProjects() {
     liveVersion: 'Link to live version',
     linkToSource: 'Link to source',
   };
-  
+
   const Wikipedia = Object.create(projects);
-  
+
   Wikipedia.name = 'Wikipedia';
   Wikipedia.description = 'The Free Encyclopedia';
   Wikipedia.featuredImage.imgSrc = 'resources/Wikipedia.png';
@@ -41,7 +41,7 @@ function loadProjects() {
   document.getElementById('1tech3').innerHTML = Wikipedia.technologies.tech3;
 
   const Twitter = Object.create(projects);
-  
+
   Twitter.name = 'Twitter';
   Twitter.description = 'Life in 140 characters';
   Twitter.featuredImage.imgSrc = 'resources/Twitter.png';
@@ -58,7 +58,7 @@ function loadProjects() {
   document.getElementById('2tech3').innerHTML = Twitter.technologies.tech3;
 
   const Instagram = Object.create(projects);
-  
+
   Instagram.name = 'Instagram';
   Instagram.description = 'Light, more light';
   Instagram.featuredImage.imgSrc = 'resources/Instagram.png';
@@ -75,7 +75,7 @@ function loadProjects() {
   document.getElementById('3tech3').innerHTML = Instagram.technologies.tech3;
 
   const Uber = Object.create(projects);
-  
+
   Uber.name = 'Uber';
   Uber.description = 'Well upon our way';
   Uber.featuredImage.imgSrc = 'resources/Uber.png';
@@ -92,7 +92,7 @@ function loadProjects() {
   document.getElementById('4tech3').innerHTML = Uber.technologies.tech3;
 
   const Microverse = Object.create(projects);
-  
+
   Microverse.name = 'Microverse';
   Microverse.description = 'Learn to code';
   Microverse.featuredImage.imgSrc = 'resources/Microverse.png';
@@ -109,7 +109,7 @@ function loadProjects() {
   document.getElementById('5tech3').innerHTML = Microverse.technologies.tech3;
 
   const YouTube = Object.create(projects);
-  
+
   YouTube.name = 'YouTube';
   YouTube.description = 'You Tube';
   YouTube.featuredImage.imgSrc = 'resources/Youtube.png';
