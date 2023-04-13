@@ -12,12 +12,12 @@ function loadProjects() {
     description: 'Project description',
     featuredImage: {
       imgSrc: 'Project image',
-      imgAlt: 'Project image'
+      imgAlt: 'Project image',
     },
     technologies: {
       tech1: 'First tech',
       tech2: 'Second tech',
-      tech3: 'Third tech'
+      tech3: 'Third tech',
     },
     liveVersion: 'Link to live version',
     linkToSource: 'Link to source',
