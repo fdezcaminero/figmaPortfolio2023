@@ -443,7 +443,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -462,7 +462,6 @@
   text-align: center;
   padding: 15px 0;
   width: 75%;
-  display: block;
   margin-left: 10%;
   margin-top: 10px;
   margin-bottom: 10px;
