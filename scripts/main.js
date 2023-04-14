@@ -30,7 +30,7 @@ const projects = [{
   name: 'Wikipedia',
   description: 'The Free Encyclopedia',
   featuredImage: {
-    imgSrc: 'resources/Rectangle 21.png',
+    imgSrc: 'resources/Rectangle 21.svg',
     imgAlt: 'Wikipedia Logo',
   },
   technologies: {
@@ -45,7 +45,7 @@ const projects = [{
   name: 'Twitter',
   description: 'Life in 140 characters',
   featuredImage: {
-    imgSrc: 'resources/macbook.png',
+    imgSrc: 'resources/macbook.svg',
     imgAlt: 'Twitter Logo',
   },
   technologies: {
@@ -60,7 +60,7 @@ const projects = [{
   name: 'Instagram',
   description: 'Light, more light',
   featuredImage: {
-    imgSrc: 'resources/ABlaptop.png',
+    imgSrc: 'resources/ABlaptop.svg',
     imgAlt: 'Instagram Logo',
   },
   technologies: {
@@ -75,7 +75,7 @@ const projects = [{
   name: 'Uber',
   description: 'Well upon our way',
   featuredImage: {
-    imgSrc: 'resources/yellowLaptop.png',
+    imgSrc: 'resources/yellowLaptop.svg',
     imgAlt: 'Uber Logo',
   },
   technologies: {
@@ -90,7 +90,7 @@ const projects = [{
   name: 'Microverse',
   description: 'Learn to code',
   featuredImage: {
-    imgSrc: 'resources/grayLaptop.png',
+    imgSrc: 'resources/grayLaptop.svg',
     imgAlt: 'Microverse Logo',
   },
   technologies: {
@@ -105,7 +105,7 @@ const projects = [{
   name: 'YouTube',
   description: 'You Tube',
   featuredImage: {
-    imgSrc: 'resources/pinkScreen.png',
+    imgSrc: 'resources/pinkScreen.svg',
     imgAlt: 'YouTube Logo',
   },
   technologies: {
