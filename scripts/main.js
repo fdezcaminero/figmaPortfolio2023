@@ -1,23 +1,3 @@
-window.addEventListener('load', loadProjects);
-document.getElementById('projectButton1').addEventListener('click', () => openModal(0));
-document.getElementById('projectButton2').addEventListener('click', () => openModal(1));
-document.getElementById('projectButton3').addEventListener('click', () => openModal(2));
-document.getElementById('projectButton4').addEventListener('click', () => openModal(3));
-document.getElementById('projectButton5').addEventListener('click', () => openModal(4));
-document.getElementById('projectButton6').addEventListener('click', () => openModal(5));
-document.getElementById('coolMenu').addEventListener('click', coolMenu);
-document.getElementById('coolMenu2').addEventListener('click', coolMenu);
-document.getElementById('coolMenu3').addEventListener('click', coolMenu);
-document.getElementById('coolMenu4').addEventListener('click', coolMenu);
-document.getElementById('coolMenu5').addEventListener('click', coolMenu);
-document.getElementById('coolMenu6').addEventListener('click', coolMenu);
-document.getElementById('closeMobileModal').addEventListener('click', closeMobileModal);
-document.getElementById('closeDesktopModal').addEventListener('click', closeDesktopModal);
-document.getElementById('seeLive1').addEventListener('click', seeLive);
-document.getElementById('seeLive2').addEventListener('click', seeLive);
-document.getElementById('seeSource1').addEventListener('click', seeSource);
-document.getElementById('seeSource2').addEventListener('click', seeSource);
-
 function coolMenu() {
   const mobileDisplay = document.getElementById('mobile1');
   const mobileMenu = document.getElementById('mobile2');
@@ -115,7 +95,7 @@ const projects = [{
   },
   liveVersion: 'https://fdezcaminero.github.io/figmaPortfolio2023/',
   linkToSource: 'https://github.com/fdezcaminero/figmaPortfolio2023',
-}
+},
 ];
 
 function loadProjects() {
@@ -185,7 +165,6 @@ function openModal(projectNumber) {
   if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
     filterBlurScreen.classList.toggle('filterBlur');
-
   } else {
     deskModal.classList.toggle('dispNone');
     filterBlurScreen.classList.toggle('filterBlur');
@@ -215,3 +194,23 @@ function seeLive() {
 function seeSource() {
   window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
 }
+
+window.addEventListener('load', loadProjects);
+document.getElementById('projectButton1').addEventListener('click', () => openModal(0));
+document.getElementById('projectButton2').addEventListener('click', () => openModal(1));
+document.getElementById('projectButton3').addEventListener('click', () => openModal(2));
+document.getElementById('projectButton4').addEventListener('click', () => openModal(3));
+document.getElementById('projectButton5').addEventListener('click', () => openModal(4));
+document.getElementById('projectButton6').addEventListener('click', () => openModal(5));
+document.getElementById('coolMenu').addEventListener('click', coolMenu);
+document.getElementById('coolMenu2').addEventListener('click', coolMenu);
+document.getElementById('coolMenu3').addEventListener('click', coolMenu);
+document.getElementById('coolMenu4').addEventListener('click', coolMenu);
+document.getElementById('coolMenu5').addEventListener('click', coolMenu);
+document.getElementById('coolMenu6').addEventListener('click', coolMenu);
+document.getElementById('closeMobileModal').addEventListener('click', closeMobileModal);
+document.getElementById('closeDesktopModal').addEventListener('click', closeDesktopModal);
+document.getElementById('seeLive1').addEventListener('click', seeLive);
+document.getElementById('seeLive2').addEventListener('click', seeLive);
+document.getElementById('seeSource1').addEventListener('click', seeSource);
+document.getElementById('seeSource2').addEventListener('click', seeSource);
