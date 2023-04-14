@@ -1,3 +1,12 @@
+window.addEventListener('load', loadProjects);
+document.getElementById('projectButton1').addEventListener('click', openModal(0));
+document.getElementById('projectButton2').addEventListener('click', openModal(1));
+document.getElementById('projectButton3').addEventListener('click', openModal(2));
+document.getElementById('projectButton4').addEventListener('click', openModal(3));
+document.getElementById('projectButton5').addEventListener('click', openModal(4));
+document.getElementById('projectButton6').addEventListener('click', openModal(5));
+document.getElementById('coolMenu').addEventListener('click', coolMenu);
+
 function coolMenu() {
   const mobileDisplay = document.getElementById('mobile1');
   const mobileMenu = document.getElementById('mobile2');
@@ -142,12 +151,12 @@ function loadProjects() {
   document.getElementById('projectImage6').alt = projects[5].featuredImage.imgAlt;
 }
 
-function openModal() {
+function openModal(projectNumber) {
   const deskModal = document.getElementById('modalDesktopID');
   const mobileModal = document.getElementById('modalMobileID');
 
-  document.getElementById('mobileProject').innerHTML = 'Wikipedia';
-  document.getElementById('desktopProject').innerHTML = 'Wikipedia';
+  document.getElementById('mobileProject').innerHTML = projects[projectNumber].name;
+  document.getElementById('desktopProject').innerHTML = projects[projectNumber].name;
 
   document.getElementById('bigPicMobile').src = 'resources/Rectangle 21.png';
   document.getElementById('smallPicMobile1').src = 'resources/Rectangle 21.png';
@@ -168,132 +177,30 @@ function openModal() {
   }
 }
 
-function openModal2() {
-  const deskModal = document.getElementById('modalDesktopID');
-  const mobileModal = document.getElementById('modalMobileID');
-
-  document.getElementById('mobileProject').innerHTML = 'Twitter';
-  document.getElementById('desktopProject').innerHTML = 'Twitter';
-
-  document.getElementById('bigPicMobile').src = 'resources/macbook.png';
-  document.getElementById('smallPicMobile1').src = 'resources/macbook.png';
-  document.getElementById('smallPicMobile2').src = 'resources/macbook.png';
-  document.getElementById('smallPicMobile3').src = 'resources/macbook.png';
-  document.getElementById('smallPicMobile4').src = 'resources/macbook.png';
-
-  if (window.screen.width < 768) {
-    mobileModal.classList.toggle('dispNone');
-  } else {
-    deskModal.classList.toggle('dispNone');
-  }
-}
-
-function openModal3() {
-  const deskModal = document.getElementById('modalDesktopID');
-  const mobileModal = document.getElementById('modalMobileID');
-
-  document.getElementById('mobileProject').innerHTML = 'Instagram';
-  document.getElementById('desktopProject').innerHTML = 'Instagram';
-
-  document.getElementById('bigPicMobile').src = 'resources/ABlaptop.png';
-  document.getElementById('smallPicMobile1').src = 'resources/ABlaptop.png';
-  document.getElementById('smallPicMobile2').src = 'resources/ABlaptop.png';
-  document.getElementById('smallPicMobile3').src = 'resources/ABlaptop.png';
-  document.getElementById('smallPicMobile4').src = 'resources/ABlaptop.png';
-
-  if (window.screen.width < 768) {
-    mobileModal.classList.toggle('dispNone');
-  } else {
-    deskModal.classList.toggle('dispNone');
-  }
-}
-
-function openModal4() {
-  const deskModal = document.getElementById('modalDesktopID');
-  const mobileModal = document.getElementById('modalMobileID');
-
-  document.getElementById('mobileProject').innerHTML = 'Uber';
-  document.getElementById('desktopProject').innerHTML = 'Uber';
-
-  document.getElementById('bigPicMobile').src = 'resources/yellowLaptop.png';
-  document.getElementById('smallPicMobile1').src = 'resources/yellowLaptop.png';
-  document.getElementById('smallPicMobile2').src = 'resources/yellowLaptop.png';
-  document.getElementById('smallPicMobile3').src = 'resources/yellowLaptop.png';
-  document.getElementById('smallPicMobile4').src = 'resources/yellowLaptop.png';
-
-  if (window.screen.width < 768) {
-    mobileModal.classList.toggle('dispNone');
-  } else {
-    deskModal.classList.toggle('dispNone');
-  }
-}
-
-function openModal5() {
-  const deskModal = document.getElementById('modalDesktopID');
-  const mobileModal = document.getElementById('modalMobileID');
-
-  document.getElementById('mobileProject').innerHTML = 'Microverse';
-  document.getElementById('desktopProject').innerHTML = 'Microverse';
-
-  document.getElementById('bigPicMobile').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicMobile1').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicMobile2').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicMobile3').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicMobile4').src = 'resources/grayLaptop.png';
-
-  document.getElementById('bigPicDesktop').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicDesktop1').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicDesktop2').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicDesktop3').src = 'resources/grayLaptop.png';
-  document.getElementById('smallPicDesktop4').src = 'resources/grayLaptop.png';
-
-  if (window.screen.width < 768) {
-    mobileModal.classList.toggle('dispNone');
-  } else {
-    deskModal.classList.toggle('dispNone');
-  }
-}
-
-function openModal6() {
-  const deskModal = document.getElementById('modalDesktopID');
-  const mobileModal = document.getElementById('modalMobileID');
-  document.getElementById('mobileProject').innerHTML = 'YouTube';
-  document.getElementById('desktopProject').innerHTML = 'YouTube';
-  document.getElementById('bigPicMobile').src = 'resources/pinkScreen.png';
-  document.getElementById('smallPicMobile1').src = 'resources/pinkScreen.png';
-  document.getElementById('smallPicMobile2').src = 'resources/pinkScreen.png';
-  document.getElementById('smallPicMobile3').src = 'resources/pinkScreen.png';
-  document.getElementById('smallPicMobile4').src = 'resources/pinkScreen.png';
-  if (window.screen.width < 768) {
-    mobileModal.classList.toggle('dispNone');
-  } else {
-    deskModal.classList.toggle('dispNone');
-  }
-}
 function closeDesktopModal() {
   const deskModal = document.getElementById('modalDesktopID');
   deskModal.classList.toggle('dispNone');
 }
+
 function closeMobileModal() {
   const mobileModal = document.getElementById('modalMobileID');
   mobileModal.classList.toggle('dispNone');
 }
+
 function seeLive() {
   window.open('https://fdezcaminero.github.io/figmaPortfolio2023/');
 }
+
 function seeSource() {
   window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
 }
 
-coolMenu();
-loadProjects();
-openModal();
-openModal2();
-openModal3();
-openModal4();
-openModal5();
-openModal6();
-closeDesktopModal();
-closeMobileModal();
-seeLive();
-seeSource();
+// openModal2();
+// openModal3();
+// openModal4();
+// openModal5();
+// openModal6();
+// closeDesktopModal();
+// closeMobileModal();
+// seeLive();
+// seeSource();

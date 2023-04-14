@@ -8,10 +8,9 @@
   <title>Fernández-Caminero's Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/a12691952c.js" crossorigin="anonymous"></script>
-  <script src="scripts/main.js"></script>
 </head>
 
-<body onload="loadProjects()">
+<body>
   <div class="modalMobile dispNone" id="modalMobileID">
     <div>
       <img onclick="closeMobileModal()" class="crossPosition" src="resources/ic_cross.svg" alt="A cross">
@@ -122,7 +121,7 @@
     <a id="Hello"></a>
     <header class="artDeco1">
       <nav>
-        <img onclick="coolMenu()" class="toolbarSize" src="resources/ic_menu.svg" alt="Toolbar Menu">
+        <img id="coolMenu" class="toolbarSize" src="resources/ic_menu.svg" alt="Toolbar Menu">
       </nav>
     </header>
 
@@ -183,7 +182,7 @@
                 <li class="greenli" id="1tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal()" class="buttonDeco2 buttonDecoDesk">See this project
+              <button id="projectButton1" class="buttonDeco2 buttonDecoDesk">See this project
                 <img src="resources/Union.png" alt="Cool (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
               </button>
@@ -201,7 +200,7 @@
                 <li class="greenli" id="2tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal2()" class="buttonDeco2">See this project
+              <button id="projectButton2" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Cooler (Blue) Arrow Pointing Right">
               </button>
@@ -219,7 +218,7 @@
                 <li class="greenli" id="3tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal3()" class="buttonDeco2">See this project
+              <button id="projectButton3" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Even cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Even cooler (Blue) Arrow Pointing Right">
               </button>
@@ -237,7 +236,7 @@
                 <li class="greenli" id="4tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal4()" class="buttonDeco2">See this project
+              <button id="projectButton4" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Yet even cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Yet even cool (Blue) Arrow Pointing Right">
               </button>
@@ -255,7 +254,7 @@
                 <li class="greenli" id="5tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal5()" class="buttonDeco2 buttonDecoDesk">See this project
+              <button id="projectButton5" class="buttonDeco2 buttonDecoDesk">See this project
                 <img src="resources/Union.png" alt="Another cool (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Another cool (Blue) Arrow Pointing Right">
               </button>
@@ -273,7 +272,7 @@
                 <li class="greenli" id="6tech3">JavaScript</li>
               </ul>
 
-              <button onclick="openModal6()" class="buttonDeco2">See this project
+              <button id="projectButton6" class="buttonDeco2">See this project
                 <img src="resources/Union.png" alt="Another cooler (White) Arrow Pointing Right">
                 <img src="resources/Union2.svg" alt="Another cooler (Blue) Arrow Pointing Right">
               </button>
@@ -409,6 +408,8 @@
 
     <div class="mMenuBottom"></div>
   </div>
+
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
