@@ -165,6 +165,7 @@ function loadProjects() {
 function openModal(projectNumber) {
   const deskModal = document.getElementById('modalDesktopID');
   const mobileModal = document.getElementById('modalMobileID');
+  const filterBlurScreen = document.getElementById('filterBlur');
 
   document.getElementById('mobileProject').innerHTML = projects[projectNumber].name;
   document.getElementById('desktopProject').innerHTML = projects[projectNumber].name;
@@ -183,19 +184,28 @@ function openModal(projectNumber) {
 
   if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
+    filterBlurScreen.classList.toggle('filterBlur');
+
   } else {
     deskModal.classList.toggle('dispNone');
+    filterBlurScreen.classList.toggle('filterBlur');
   }
 }
 
 function closeDesktopModal() {
   const deskModal = document.getElementById('modalDesktopID');
+  const filterBlurScreen = document.getElementById('filterBlur');
+
   deskModal.classList.toggle('dispNone');
+  filterBlurScreen.classList.toggle('filterBlur');
 }
 
 function closeMobileModal() {
   const mobileModal = document.getElementById('modalMobileID');
+  const filterBlurScreen = document.getElementById('filterBlur');
+
   mobileModal.classList.toggle('dispNone');
+  filterBlurScreen.classList.toggle('filterBlur');
 }
 
 function seeLive() {

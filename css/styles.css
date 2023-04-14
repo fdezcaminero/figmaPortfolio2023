@@ -675,6 +675,10 @@
   padding-left: 15px;
 }
 
+.filterBlur {
+  filter: blur(100px);
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
