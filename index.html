@@ -13,7 +13,7 @@
 <body>
   <div class="modalMobile dispNone" id="modalMobileID">
     <div>
-      <img onclick="closeMobileModal()" class="crossPosition" src="resources/ic_cross.svg" alt="A cross">
+      <img id="closeMobileModal"  class="crossPosition" src="resources/ic_cross.svg" alt="A cross">
       <h4 class="modalProjectNameMobile" id="mobileProject">Project name goes here</h4>
     </div>
     <ul class="whiteul whiteulpadding">
@@ -43,12 +43,12 @@
         aut nobis sed dolor iure quibusdam.</p>
     </div>
 
-    <button onclick="seeLive()" class="whiteButton">
+    <button id="seeLive1" class="whiteButton">
       <div></div>
       <p>See live</p>
       <img src="resources/ic_link.svg" alt="Arrow pointing up and to the right">
     </button>
-    <button onclick="seeSource()" class="whiteButton">
+    <button id="seeSource1" class="whiteButton">
       <div></div>
       <p>See source</p>
       <img src="resources/Vector.svg" alt="GitHub logo">
@@ -59,7 +59,7 @@
     <section class="innerModalDesktop">
       <div class="dispFlex1">
         <h2 class="modalProjectNameDesktop" id="desktopProject">Wikipedia</h2>
-        <img onclick="closeDesktopModal()" src="resources/ic_cross.svg" alt="Cross shape">
+        <img id="closeDesktopModal" src="resources/ic_cross.svg" alt="Cross shape">
       </div>
 
       <ul class="whiteul">
@@ -92,13 +92,13 @@
           soluta
           aut nobis sed dolor iure quibusdam.</p>
 
-        <button onclick="seeLive()" class="whiteButton2">
+        <button id="seeLive2" class="whiteButton2">
           <div class="styleButton">
             <p>See live</p>
             <img src="resources/ic_link.svg" alt="Arrow pointing up and to the right">
           </div>
         </button>
-        <button onclick="seeSource()" class="whiteButton2">
+        <button id="seeSource2" class="whiteButton2">
           <div class="styleButton">
             <p>See source</p>
             <img src="resources/Vector.svg" alt="GitHub logo">
@@ -388,19 +388,19 @@
   </div>
 
   <div class="dispNone mobileMenu" id="mobile2">
-    <img onclick="coolMenu()" class="positionX" src="resources/Union(1).svg" alt="X Button">
+    <img id="coolMenu2" class="positionX" src="resources/Union(1).svg" alt="X Button">
     <div class="mobileMenuDots1"></div>
 
-    <a class="plainAnchor" onclick="coolMenu()" href="#Hello">
+    <a id="coolMenu3" class="plainAnchor" href="#Hello">
       <h2>Hello</h2>
     </a>
-    <a class="plainAnchor" onclick="coolMenu()" href="#Portfolio">
+    <a id="coolMenu4" class="plainAnchor" href="#Portfolio">
       <h2>Portfolio</h2>
     </a>
-    <a class="plainAnchor" onclick="coolMenu()" href="#About">
+    <a id="coolMenu5" class="plainAnchor" href="#About">
       <h2>About</h2>
     </a>
-    <a class="plainAnchor" onclick="coolMenu()" class="margBottom3" href="#Contact">
+    <a id="coolMenu6" class="plainAnchor" class="margBottom3" href="#Contact">
       <h2>Contact</h2>
     </a>
 

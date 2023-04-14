@@ -1,11 +1,22 @@
 window.addEventListener('load', loadProjects);
-document.getElementById('projectButton1').addEventListener('click', openModal(0));
-document.getElementById('projectButton2').addEventListener('click', openModal(1));
-document.getElementById('projectButton3').addEventListener('click', openModal(2));
-document.getElementById('projectButton4').addEventListener('click', openModal(3));
-document.getElementById('projectButton5').addEventListener('click', openModal(4));
-document.getElementById('projectButton6').addEventListener('click', openModal(5));
+document.getElementById('projectButton1').addEventListener('click', () => openModal(0));
+document.getElementById('projectButton2').addEventListener('click', () => openModal(1));
+document.getElementById('projectButton3').addEventListener('click', () => openModal(2));
+document.getElementById('projectButton4').addEventListener('click', () => openModal(3));
+document.getElementById('projectButton5').addEventListener('click', () => openModal(4));
+document.getElementById('projectButton6').addEventListener('click', () => openModal(5));
 document.getElementById('coolMenu').addEventListener('click', coolMenu);
+document.getElementById('coolMenu2').addEventListener('click', coolMenu);
+document.getElementById('coolMenu3').addEventListener('click', coolMenu);
+document.getElementById('coolMenu4').addEventListener('click', coolMenu);
+document.getElementById('coolMenu5').addEventListener('click', coolMenu);
+document.getElementById('coolMenu6').addEventListener('click', coolMenu);
+document.getElementById('closeMobileModal').addEventListener('click', closeMobileModal);
+document.getElementById('closeDesktopModal').addEventListener('click', closeDesktopModal);
+document.getElementById('seeLive1').addEventListener('click', seeLive);
+document.getElementById('seeLive2').addEventListener('click', seeLive);
+document.getElementById('seeSource1').addEventListener('click', seeSource);
+document.getElementById('seeSource2').addEventListener('click', seeSource);
 
 function coolMenu() {
   const mobileDisplay = document.getElementById('mobile1');
@@ -158,17 +169,17 @@ function openModal(projectNumber) {
   document.getElementById('mobileProject').innerHTML = projects[projectNumber].name;
   document.getElementById('desktopProject').innerHTML = projects[projectNumber].name;
 
-  document.getElementById('bigPicMobile').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicMobile1').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicMobile2').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicMobile3').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicMobile4').src = 'resources/Rectangle 21.png';
+  document.getElementById('bigPicMobile').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile1').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile2').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile3').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile4').src = projects[projectNumber].featuredImage.imgSrc;
 
-  document.getElementById('bigPicDesktop').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicDesktop1').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicDesktop2').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicDesktop3').src = 'resources/Rectangle 21.png';
-  document.getElementById('smallPicDesktop4').src = 'resources/Rectangle 21.png';
+  document.getElementById('bigPicDesktop').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop1').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop2').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop3').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop4').src = projects[projectNumber].featuredImage.imgSrc;
 
   if (window.screen.width < 768) {
     mobileModal.classList.toggle('dispNone');
@@ -194,13 +205,3 @@ function seeLive() {
 function seeSource() {
   window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
 }
-
-// openModal2();
-// openModal3();
-// openModal4();
-// openModal5();
-// openModal6();
-// closeDesktopModal();
-// closeMobileModal();
-// seeLive();
-// seeSource();
