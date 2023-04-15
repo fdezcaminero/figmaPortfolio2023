@@ -98,6 +98,152 @@ const projects = [{
 },
 ];
 
+function loadHTML() {
+  const superHTML = 
+  `
+  <section class="deskPosRelative">
+  <h2 class="playfairFont projectsTag deskPosAbsolute">Projects</h2>
+  
+  <img class="deskStuff deskPosAbsolute positionDeco1" src="resources/image-geometry_2.svg"
+    alt="Geometrical decoration">
+  <img class="deskStuff deskPosAbsolute positionDeco2" src="resources/Group83.svg"
+    alt="Squared decoration with many colors">
+  <img class="deskStuff deskPosAbsolute positionDeco3" src="resources/image-geometry_5.svg"
+    alt="Geometrical decoration, squares, and circles">
+  <img class="deskStuff deskPosAbsolute positionDeco4" src="resources/redSquare.svg" alt="Red square">
+  <img class="deskStuff deskPosAbsolute positionDeco5" src="resources/image-geometry_4.svg"
+    alt="Yellow geometrical decoration">
+  <img class="deskStuff deskPosAbsolute positionDeco6" src="resources/image_dots.png" alt="Dots">
+  
+  <div class="dgrid deskPosRelative">
+    <section class="flex-column firstCardDesk">
+      <img id="projectImage1" class="fullWidth bigImage" src="resources/Rectangle 21.svg" alt="Laptop, tangerine, and other objects">
+      <div class="darkBlueBackground projectsPadding flex-column firstCardBlueBackground">
+        <h2 class="projectnameStyle deskFont1" id="ProjectName1">Project name goes here</h2>
+  
+        <ul class="greenul">
+          <li class="greenli" id="1tech1">HTML/CSS</li>
+          <li class="greenli" id="1tech2">Ruby on Rails</li>
+          <li class="greenli" id="1tech3">JavaScript</li>
+        </ul>
+  
+        <button id="projectButton1" class="buttonDeco2 buttonDecoDesk">See this project
+          <img src="resources/Union.png" alt="Cool (White) Arrow Pointing Right">
+          <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
+        </button>
+      </div>
+    </section>
+  
+    <section class="flex-column">
+      <img class="fullWidth macBookpic" src="resources/macbook.svg" alt="A macbook" id="projectImage2">
+      <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
+        <h2 class="projectnameStyle" id="ProjectName2">Project name goes here</h2>
+  
+        <ul class="greenul">
+          <li class="greenli" id="2tech1">HTML/CSS</li>
+          <li class="greenli" id="2tech2">Ruby on Rails</li>
+          <li class="greenli" id="2tech3">JavaScript</li>
+        </ul>
+  
+        <button id="projectButton2" class="buttonDeco2">See this project
+          <img src="resources/Union.png" alt="Cooler (White) Arrow Pointing Right">
+          <img src="resources/Union2.svg" alt="Cooler (Blue) Arrow Pointing Right">
+        </button>
+      </div>
+    </section>
+  
+    <section class="flex-column">
+      <img class="fullWidth ABLaptopPic" src="resources/ABlaptop.svg" alt="A laptop and a phone" id="projectImage3">
+      <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
+        <h2 class="projectnameStyle" id="ProjectName3">Project name goes here</h2>
+  
+        <ul class="greenul">
+          <li class="greenli" id="3tech1">HTML/CSS</li>
+          <li class="greenli" id="3tech2">Ruby on Rails</li>
+          <li class="greenli" id="3tech3">JavaScript</li>
+        </ul>
+  
+        <button id="projectButton3" class="buttonDeco2">See this project
+          <img src="resources/Union.png" alt="Even cooler (White) Arrow Pointing Right">
+          <img src="resources/Union2.svg" alt="Even cooler (Blue) Arrow Pointing Right">
+        </button>
+      </div>
+    </section>
+  
+    <section class="flex-column">
+      <img class="fullWidth yellowLaptop" src="resources/yellowLaptop.svg" alt="A laptop with a yellow design" id="projectImage4">
+      <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
+        <h2 class="projectnameStyle" id="ProjectName4">Project name goes here</h2>
+  
+        <ul class="greenul">
+          <li class="greenli" id="4tech1">HTML/CSS</li>
+          <li class="greenli" id="4tech2">Ruby on Rails</li>
+          <li class="greenli" id="4tech3">JavaScript</li>
+        </ul>
+  
+        <button id="projectButton4" class="buttonDeco2">See this project
+          <img src="resources/Union.png" alt="Yet even cooler (White) Arrow Pointing Right">
+          <img src="resources/Union2.svg" alt="Yet even cool (Blue) Arrow Pointing Right">
+        </button>
+      </div>
+    </section>
+  
+    <section class="flex-column special-column grayLaptop">
+      <img class="fullWidth" src="resources/grayLaptop.svg" alt="A laptop with a gray background" id="projectImage5">
+      <div class="darkBlueBackground projectsPadding flex-column">
+        <h2 class="projectnameStyle deskFont2" id="ProjectName5">Project name goes here</h2>
+  
+        <ul class="greenul">
+          <li class="greenli" id="5tech1">HTML/CSS</li>
+          <li class="greenli" id="5tech2">Ruby on Rails</li>
+          <li class="greenli" id="5tech3">JavaScript</li>
+        </ul>
+  
+        <button id="projectButton5" class="buttonDeco2 buttonDecoDesk">See this project
+          <img src="resources/Union.png" alt="Another cool (White) Arrow Pointing Right">
+          <img src="resources/Union2.svg" alt="Another cool (Blue) Arrow Pointing Right">
+        </button>
+      </div>
+    </section>
+  
+    <section class="flex-column">
+      <img class="fullWidth pinkLaptop" src="resources/pinkScreen.svg" alt="A laptop with a pink screen" id="projectImage6">
+      <div class="darkBlueBackground projectsPadding flex-column deskBlueSquare">
+        <h2 class="projectnameStyle" id="ProjectName6">Project name goes here</h2>
+  
+        <ul class="greenul">
+          <li class="greenli" id="6tech1">HTML/CSS</li>
+          <li class="greenli" id="6tech2">Ruby on Rails</li>
+          <li class="greenli" id="6tech3">JavaScript</li>
+        </ul>
+  
+        <button id="projectButton6" class="buttonDeco2">See this project
+          <img src="resources/Union.png" alt="Another cooler (White) Arrow Pointing Right">
+          <img src="resources/Union2.svg" alt="Another cooler (Blue) Arrow Pointing Right">
+        </button>
+      </div>
+    </section>
+  </div>
+  </section>
+  `
+  ;
+
+  document.querySelector('.myProjectsSection').innerHTML = superHTML;
+
+  document.getElementById('projectButton1').addEventListener('click', () => openModal(0));
+  document.getElementById('projectButton2').addEventListener('click', () => openModal(1));
+  document.getElementById('projectButton3').addEventListener('click', () => openModal(2));
+  document.getElementById('projectButton4').addEventListener('click', () => openModal(3));
+  document.getElementById('projectButton5').addEventListener('click', () => openModal(4));
+  document.getElementById('projectButton6').addEventListener('click', () => openModal(5));
+  document.getElementById('closeMobileModal').addEventListener('click', closeMobileModal);
+  document.getElementById('closeDesktopModal').addEventListener('click', closeDesktopModal);
+  document.getElementById('seeLive1').addEventListener('click', seeLive);
+  document.getElementById('seeLive2').addEventListener('click', seeLive);
+  document.getElementById('seeSource1').addEventListener('click', seeSource);
+  document.getElementById('seeSource2').addEventListener('click', seeSource);
+}
+
 function loadProjects() {
   let num = projects.length;
   
@@ -164,22 +310,7 @@ function seeSource() {
   window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
 }
 
+window.addEventListener('load', loadHTML);
 window.addEventListener('load', loadProjects);
-document.getElementById('projectButton1').addEventListener('click', () => openModal(0));
-document.getElementById('projectButton2').addEventListener('click', () => openModal(1));
-document.getElementById('projectButton3').addEventListener('click', () => openModal(2));
-document.getElementById('projectButton4').addEventListener('click', () => openModal(3));
-document.getElementById('projectButton5').addEventListener('click', () => openModal(4));
-document.getElementById('projectButton6').addEventListener('click', () => openModal(5));
-document.getElementById('coolMenu').addEventListener('click', coolMenu);
-document.getElementById('coolMenu2').addEventListener('click', coolMenu);
-document.getElementById('coolMenu3').addEventListener('click', coolMenu);
-document.getElementById('coolMenu4').addEventListener('click', coolMenu);
-document.getElementById('coolMenu5').addEventListener('click', coolMenu);
-document.getElementById('coolMenu6').addEventListener('click', coolMenu);
-document.getElementById('closeMobileModal').addEventListener('click', closeMobileModal);
-document.getElementById('closeDesktopModal').addEventListener('click', closeDesktopModal);
-document.getElementById('seeLive1').addEventListener('click', seeLive);
-document.getElementById('seeLive2').addEventListener('click', seeLive);
-document.getElementById('seeSource1').addEventListener('click', seeSource);
-document.getElementById('seeSource2').addEventListener('click', seeSource);
+const coolMenus = document.querySelectorAll('.coolMenu');
+coolMenus.forEach(coolElement => coolElement.addEventListener('click', coolMenu));
