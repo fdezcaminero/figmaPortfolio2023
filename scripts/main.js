@@ -170,7 +170,7 @@ function seeSource() {
 }
 
 function loadHTML() {
-  const superHTML =  `
+  const superHTML = `
   <section class="deskPosRelative">
   <h2 class="playfairFont projectsTag deskPosAbsolute">Projects</h2>
   
