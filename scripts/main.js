@@ -99,14 +99,14 @@ const projects = [{
 ];
 
 function loadProjects() {
-  let num = projects.length;
+  const num = projects.length;
   
   for(let i = 1; i <= num; i++) {
-    const BigName = 'ProjectName' + i;
-    const BigTech1 = i + 'tech1';
-    const BigTech2 = i + 'tech2';
-    const BigTech3 = i + 'tech3';
-    const BigImg = 'projectImage' + i;
+    const BigName = `ProjectName${i}`;
+    const BigTech1 = `${i}tech1`;
+    const BigTech2 = `${i}tech2`;
+    const BigTech3 = `${i}tech3`;
+    const BigImg = `projectImage${i}`;
 
     document.getElementById(BigName).innerHTML = projects[i - 1].name;
     document.getElementById(BigTech1).innerHTML = projects[i - 1].technologies.tech1;
