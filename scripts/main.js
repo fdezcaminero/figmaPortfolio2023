@@ -337,5 +337,5 @@ const myCoolForm = document.getElementById('coolform');
 myCoolForm.addEventListener('submit', (newForm) => {
   if (submitButton.disabled) {
     newForm.preventDefault();
-  } else { return; }
+  }
 });
