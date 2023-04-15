@@ -248,14 +248,18 @@ function loadProjects() {
   let num = projects.length;
   
   for(let i = 1; i <= num; i++) {
-    let BigName = 'ProjectName' + i;
+    const BigName = 'ProjectName' + i;
+    const BigTech1 = i + 'tech1';
+    const BigTech2 = i + 'tech2';
+    const BigTech3 = i + 'tech3';
+    const BigImg = 'projectImage' + i;
 
     document.getElementById(BigName).innerHTML = projects[i - 1].name;
-    document.getElementById(i + 'tech1').innerHTML = projects[i - 1].technologies.tech1;
-    document.getElementById(i + 'tech2').innerHTML = projects[i - 1].technologies.tech2;
-    document.getElementById(i + 'tech3').innerHTML = projects[i - 1].technologies.tech3;
-    document.getElementById('projectImage' + i).src = projects[i - 1].featuredImage.imgSrc;
-    document.getElementById('projectImage' + i).alt = projects[i - 1].featuredImage.imgAlt;
+    document.getElementById(BigTech1).innerHTML = projects[i - 1].technologies.tech1;
+    document.getElementById(BigTech2).innerHTML = projects[i - 1].technologies.tech2;
+    document.getElementById(BigTech3).innerHTML = projects[i - 1].technologies.tech3;
+    document.getElementById(BigImg).src = projects[i - 1].featuredImage.imgSrc;
+    document.getElementById(BigImg).alt = projects[i - 1].featuredImage.imgAlt;
   }
 }
 
