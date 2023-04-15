@@ -98,6 +98,78 @@ const projects = [{
 },
 ];
 
+function loadProjects() {
+  let num = projects.length;
+  
+  for(let i = 1; i <= num; i++) {
+    const BigName = 'ProjectName' + i;
+    const BigTech1 = i + 'tech1';
+    const BigTech2 = i + 'tech2';
+    const BigTech3 = i + 'tech3';
+    const BigImg = 'projectImage' + i;
+
+    document.getElementById(BigName).innerHTML = projects[i - 1].name;
+    document.getElementById(BigTech1).innerHTML = projects[i - 1].technologies.tech1;
+    document.getElementById(BigTech2).innerHTML = projects[i - 1].technologies.tech2;
+    document.getElementById(BigTech3).innerHTML = projects[i - 1].technologies.tech3;
+    document.getElementById(BigImg).src = projects[i - 1].featuredImage.imgSrc;
+    document.getElementById(BigImg).alt = projects[i - 1].featuredImage.imgAlt;
+  }
+}
+
+function openModal(projectNumber) {
+  const deskModal = document.getElementById('modalDesktopID');
+  const mobileModal = document.getElementById('modalMobileID');
+  const filterBlurScreen = document.getElementById('filterBlur');
+
+  document.getElementById('mobileProject').innerHTML = projects[projectNumber].name;
+  document.getElementById('desktopProject').innerHTML = projects[projectNumber].name;
+
+  document.getElementById('bigPicMobile').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile1').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile2').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile3').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicMobile4').src = projects[projectNumber].featuredImage.imgSrc;
+
+  document.getElementById('bigPicDesktop').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop1').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop2').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop3').src = projects[projectNumber].featuredImage.imgSrc;
+  document.getElementById('smallPicDesktop4').src = projects[projectNumber].featuredImage.imgSrc;
+
+  if (window.screen.width < 768) {
+    mobileModal.classList.toggle('dispNone');
+    filterBlurScreen.classList.toggle('filterBlur');
+  } else {
+    deskModal.classList.toggle('dispNone');
+    filterBlurScreen.classList.toggle('filterBlur');
+  }
+}
+
+function closeDesktopModal() {
+  const deskModal = document.getElementById('modalDesktopID');
+  const filterBlurScreen = document.getElementById('filterBlur');
+
+  deskModal.classList.toggle('dispNone');
+  filterBlurScreen.classList.toggle('filterBlur');
+}
+
+function closeMobileModal() {
+  const mobileModal = document.getElementById('modalMobileID');
+  const filterBlurScreen = document.getElementById('filterBlur');
+
+  mobileModal.classList.toggle('dispNone');
+  filterBlurScreen.classList.toggle('filterBlur');
+}
+
+function seeLive() {
+  window.open('https://fdezcaminero.github.io/figmaPortfolio2023/');
+}
+
+function seeSource() {
+  window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
+}
+
 function loadHTML() {
   const superHTML = 
   `
@@ -242,78 +314,6 @@ function loadHTML() {
   document.getElementById('seeLive2').addEventListener('click', seeLive);
   document.getElementById('seeSource1').addEventListener('click', seeSource);
   document.getElementById('seeSource2').addEventListener('click', seeSource);
-}
-
-function loadProjects() {
-  let num = projects.length;
-  
-  for(let i = 1; i <= num; i++) {
-    const BigName = 'ProjectName' + i;
-    const BigTech1 = i + 'tech1';
-    const BigTech2 = i + 'tech2';
-    const BigTech3 = i + 'tech3';
-    const BigImg = 'projectImage' + i;
-
-    document.getElementById(BigName).innerHTML = projects[i - 1].name;
-    document.getElementById(BigTech1).innerHTML = projects[i - 1].technologies.tech1;
-    document.getElementById(BigTech2).innerHTML = projects[i - 1].technologies.tech2;
-    document.getElementById(BigTech3).innerHTML = projects[i - 1].technologies.tech3;
-    document.getElementById(BigImg).src = projects[i - 1].featuredImage.imgSrc;
-    document.getElementById(BigImg).alt = projects[i - 1].featuredImage.imgAlt;
-  }
-}
-
-function openModal(projectNumber) {
-  const deskModal = document.getElementById('modalDesktopID');
-  const mobileModal = document.getElementById('modalMobileID');
-  const filterBlurScreen = document.getElementById('filterBlur');
-
-  document.getElementById('mobileProject').innerHTML = projects[projectNumber].name;
-  document.getElementById('desktopProject').innerHTML = projects[projectNumber].name;
-
-  document.getElementById('bigPicMobile').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicMobile1').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicMobile2').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicMobile3').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicMobile4').src = projects[projectNumber].featuredImage.imgSrc;
-
-  document.getElementById('bigPicDesktop').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicDesktop1').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicDesktop2').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicDesktop3').src = projects[projectNumber].featuredImage.imgSrc;
-  document.getElementById('smallPicDesktop4').src = projects[projectNumber].featuredImage.imgSrc;
-
-  if (window.screen.width < 768) {
-    mobileModal.classList.toggle('dispNone');
-    filterBlurScreen.classList.toggle('filterBlur');
-  } else {
-    deskModal.classList.toggle('dispNone');
-    filterBlurScreen.classList.toggle('filterBlur');
-  }
-}
-
-function closeDesktopModal() {
-  const deskModal = document.getElementById('modalDesktopID');
-  const filterBlurScreen = document.getElementById('filterBlur');
-
-  deskModal.classList.toggle('dispNone');
-  filterBlurScreen.classList.toggle('filterBlur');
-}
-
-function closeMobileModal() {
-  const mobileModal = document.getElementById('modalMobileID');
-  const filterBlurScreen = document.getElementById('filterBlur');
-
-  mobileModal.classList.toggle('dispNone');
-  filterBlurScreen.classList.toggle('filterBlur');
-}
-
-function seeLive() {
-  window.open('https://fdezcaminero.github.io/figmaPortfolio2023/');
-}
-
-function seeSource() {
-  window.open('https://github.com/fdezcaminero/figmaPortfolio2023');
 }
 
 window.addEventListener('load', loadHTML);
