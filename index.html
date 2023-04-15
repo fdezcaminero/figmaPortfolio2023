@@ -226,7 +226,7 @@
           ut
           labore et dolore magna.</p>
 
-        <form action="https://formspree.io/f/xknavqkz" method="POST">
+        <form id="coolform" action="https://formspree.io/f/xknavqkz" method="POST">
           <div class="deskflex1">
             <div class="deskPosRelative2">
               <label for="name" class="label1">Your name</label>
@@ -242,8 +242,9 @@
           <textarea id="textarea" name="user_message" class="fullWidth3" maxlength="500"
             placeholder="Enter your message here..." required></textarea>
           <div class="formButtonDesk">
-            <button class="buttonDeco deskButtonWidth buttonTransition2">Start collaboration</button>
+            <button id="coolformbutton" class="buttonDeco deskButtonWidth buttonTransition2" type="submit">Start collaboration</button>
           </div>
+          <div id="emailcase" class="dispNone redFont">email has to be all lowercase!</div>
         </form>
       </section>
 

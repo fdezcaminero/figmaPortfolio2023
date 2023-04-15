@@ -317,3 +317,27 @@ window.addEventListener('load', loadHTML);
 window.addEventListener('load', loadProjects);
 const coolMenus = document.querySelectorAll('.coolMenu');
 coolMenus.forEach((coolElement) => coolElement.addEventListener('click', coolMenu));
+
+const formEmail = document.getElementById('email');
+const emailMsg = document.getElementById('emailcase');
+const submitButton = document.getElementById('coolformbutton');
+
+formEmail.addEventListener('input', () => {
+  if (formEmail.value !== formEmail.value.toLowerCase()) {
+    emailMsg.classList.remove('dispNone');
+    submitButton.disabled = true;
+  } else {
+    emailMsg.classList.add('dispNone');
+    submitButton.disabled = false;
+  }
+});
+
+const myCoolForm = document.getElementById('coolform');
+
+myCoolForm.addEventListener('submit', (newForm) => {
+  if (submitButton.disabled) {
+    newForm.preventDefault();
+  } else {
+    return;
+  }
+});
