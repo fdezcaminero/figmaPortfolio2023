@@ -248,8 +248,10 @@ function loadProjects() {
   let num = projects.length;
   
   for(let i = 1; i <= num; i++) {
-    document.getElementById('ProjectName' + i).innerHTML = projects[i - 1].name;
-    document.getElementById(i +'tech1').innerHTML = projects[i - 1].technologies.tech1;
+    let BigName = 'ProjectName' + i;
+
+    document.getElementById(BigName).innerHTML = projects[i - 1].name;
+    document.getElementById(i + 'tech1').innerHTML = projects[i - 1].technologies.tech1;
     document.getElementById(i + 'tech2').innerHTML = projects[i - 1].technologies.tech2;
     document.getElementById(i + 'tech3').innerHTML = projects[i - 1].technologies.tech3;
     document.getElementById('projectImage' + i).src = projects[i - 1].featuredImage.imgSrc;
