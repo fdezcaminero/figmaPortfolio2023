@@ -438,6 +438,247 @@
   color: black;
 }
 
+.modalTextMobile {
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.pPadding1 {
+  padding: 10px 0;
+}
+
+.whiteButton {
+  background-color: white;
+  color: #1a2236;
+  border-color: #1a2236;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+  width: 75%;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.whiteButton:hover {
+  color: white;
+  background: #1a2236;
+}
+
+.whiteButton:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
+.whiteButton2 {
+  background-color: white;
+  color: #1a2236;
+  border-color: #1a2236;
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+  width: 35%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.whiteButton2:hover {
+  color: white;
+  background: #1a2236;
+}
+
+.whiteButton2:active {
+  color: #1a2236;
+  background: white;
+  border-width: 3px 3px 3px 3px;
+  border-color: #1a2236;
+}
+
+.styleButton {
+  display: flex;
+  justify-content: space-around;
+}
+
+.whiteul {
+  display: flex;
+  list-style-type: none;
+}
+
+.whiteli {
+  background-color: white;
+  font-size: 10.33px;
+  padding: 5px 10px;
+  margin-right: 12px;
+  font-family: PoppinsRegular, sans-serif;
+  color: #1a2236;
+  border-color: #1a2236;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.whiteulpadding {
+  padding-bottom: 10px;
+}
+
+.smallImages {
+  display: flex;
+  margin-top: -10px;
+}
+
+.smallImages > img {
+  width: 25%;
+}
+
+.smallImages2 {
+  display: flex;
+  margin-top: -10px;
+}
+
+.smallImages2 > img {
+  width: 25%;
+}
+
+.firstSmallImg {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.modalDesktop {
+  background: #1a2236f2;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  position: absolute;
+  top: 150%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.modalMobile {
+  position: fixed;
+  padding: 0 20px;
+  background-color: white;
+  z-index: 10000;
+}
+
+.innerModalDesktop {
+  background: white;
+  position: relative;
+  margin: 50px;
+  padding: 45px;
+}
+
+.flexParagraph {
+  display: flex;
+  justify-content: space-between;
+}
+
+.xButton1 {
+  border: none;
+  background-color: transparent;
+  color: #1a2236f2;
+}
+
+.modalProjectNameMobile {
+  font-family: PoppinsSemiBold, sans-serif;
+  font-size: 20px;
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+
+.modalProjectNameDesktop {
+  font-family: PoppinsBold, sans-serif;
+  font-size: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1a2236f2;
+}
+
+.dispFlex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fullWidth4 {
+  width: 100%;
+}
+
+.fullWidthDeskModal {
+  width: 100%;
+}
+
+.modalDeskBottom {
+  font-family: PoppinsRegular, sans-serif;
+  font-size: 18px;
+  padding-left: 20%;
+  padding-right: 23%;
+}
+
+.modalPadding1 {
+  padding: 35px 0;
+}
+
+.modalPadding2 {
+  padding-bottom: 20px;
+}
+
+.crossPosition {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  height: 20px;
+}
+
+.arrowLeft {
+  position: absolute;
+  top: 255px;
+}
+
+.arrowRight {
+  position: absolute;
+  top: 255px;
+  right: 24px;
+}
+
+.arrowLeft2 {
+  position: absolute;
+  top: 500px;
+  height: 30px;
+}
+
+.arrowRight2 {
+  position: absolute;
+  top: 500px;
+  right: 47px;
+  height: 30px;
+}
+
+.arrow1padding {
+  padding-right: 15px;
+}
+
+.arrow2padding {
+  padding-left: 15px;
+}
+
+.filterBlur {
+  filter: blur(100px);
+}
+
 @media screen and (min-width: 768px) {
   .bigDeco {
     background-image: url(../resources/Thur.png);
