@@ -313,4 +313,4 @@ function seeSource() {
 window.addEventListener('load', loadHTML);
 window.addEventListener('load', loadProjects);
 const coolMenus = document.querySelectorAll('.coolMenu');
-coolMenus.forEach(coolElement => coolElement.addEventListener('click', coolMenu));
+coolMenus.forEach((coolElement) => coolElement.addEventListener('click', coolMenu));
