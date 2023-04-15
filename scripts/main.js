@@ -100,8 +100,7 @@ const projects = [{
 
 function loadProjects() {
   const num = projects.length;
-  
-  for(let i = 1; i <= num; i++) {
+  for (let i = 1; i <= num; i += 1) {
     const BigName = `ProjectName${i}`;
     const BigTech1 = `${i}tech1`;
     const BigTech2 = `${i}tech2`;
@@ -171,8 +170,7 @@ function seeSource() {
 }
 
 function loadHTML() {
-  const superHTML = 
-  `
+  const superHTML =  `
   <section class="deskPosRelative">
   <h2 class="playfairFont projectsTag deskPosAbsolute">Projects</h2>
   
@@ -297,8 +295,7 @@ function loadHTML() {
     </section>
   </div>
   </section>
-  `
-  ;
+  `;
 
   document.querySelector('.myProjectsSection').innerHTML = superHTML;
 
